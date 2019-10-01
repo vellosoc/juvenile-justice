@@ -1,0 +1,41 @@
+body{
+    height:100vh;
+    color: #ff6f61;
+    background-color: #3F51B5;
+}
+h1{
+    position: relative;
+    top:50%;
+    left:50%;
+    width: 200px;
+    border-right: 3px solid #ff6f61;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    display: block;
+    font-size: 2em;
+    font-family: 'Special Elite', cursive;
+    letter-spacing: .2em;
+}
+
+.text{
+  animation: typeText 4s steps(44) 1s 1 normal both,
+    curserAnim 500ms steps(44) infinite normal;
+}
+@keyframes typeText{
+    0%{
+        width:0em;
+    }
+    100%{
+        width: 18em;
+    }
+}
+@keyframes curserAnim{
+    0%{
+        border-right-color:#ff6f61;
+    }
+    100%{
+        border-right-color:transparent;
+    }
+}
