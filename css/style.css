@@ -19,7 +19,7 @@ body {
   text-transform:uppercase;
   position:fixed;
   z-index:10;
-  font-weight:700;
+  font-weight:bold;
   opacity:.8;
 }
 
@@ -109,6 +109,14 @@ h4{
   line-height: 2;
 }
 
+.card-text{
+  font-family: 'Antic Didone', serif;
+}
+
+.btn{
+  font-family: 'Antic Didone', serif;
+}
+
 .pod-description{
   font-family: 'Antic Didone', serif;
   font-size:1em;
@@ -166,7 +174,7 @@ h4{
     color:white;
     font-family: 'Antic Didone', serif;
     letter-spacing: normal;
-    font-size: .9em;
+    font-size: 1em;
     width:70%;
     margin: 0 auto;
     text-align: center;
@@ -186,16 +194,17 @@ hr{
   .centered{
     font-size: 1.2em;
   }
-  #test {
-    font-size: .7em;
+
+  #test{
+    font-size: 1em;
   }
 }
 
-@media(max-width:760px) {
+@media(max-width:760px){
   .centered{
-    font-size: .6em;
-}
-#test {
-  font-size: .7em;
-}
+    font-size: 1em;
+  }
+  #test{
+    font-size: 1em;
+  }
 }
