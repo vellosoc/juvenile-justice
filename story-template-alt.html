@@ -58,6 +58,8 @@
     			  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
     			  crossorigin="anonymous"></script>
 
+            <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
 
         <!-- METRICS -->
         <meta name="parsely-title" content="" />
@@ -89,18 +91,19 @@
 
   </div>
 
-</div>
+</div><!-- END Hero Container -->
 
 <!-- START Main Story Container -->
 <a name="story"><div class="container"></a><br><br>
 
 <div id="wrapper">
 <div class="btn-group" style="width:80%;">
-  <button class="active" style="width:50%">Maryland</button>
-  <button class="not-active" style="width:50%">The Nation</button>
+  <button id="maryland-button" style="width:50%">Maryland</button>
+  <button id="nation-button" style="width:50%">The Nation</button>
 </div>
 </div>
 
+<div id="maryland-container">
           <h1 class="story-heading">Unequal Justice</h1>
           <p class="opening-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br><br>
 
@@ -113,7 +116,9 @@
 
           </div><br><br><br>
 
+</div>
 
+<div id="nation-container">
                     <h1 class="story-heading">Meet the Maryland juvenile lifers</h1>
                     <p class="opening-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br><br>
 
@@ -241,14 +246,7 @@
         </div>
       </div><br><br><br>
 
-
-
-
-
-
-
-
-
+</div>
 
 
 </div>
@@ -261,6 +259,18 @@
             $("#test").delay(5500).fadeIn(1000);
           });
     });
+
+
+    $("#maryland-button").click(function(){
+     $("#nation-container").hide();
+     $("#maryland-container").show();
+    });
+
+    $("#nation-button").click(function(){
+     $("#nation-container").show();
+     $("#maryland-container").hide();
+    });
+
 </script>
 
 

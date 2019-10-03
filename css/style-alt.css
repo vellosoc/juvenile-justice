@@ -8,6 +8,10 @@ body {
   color: black;
 }
 
+#nation-container {
+  display:none;
+}
+
 #tophat {
   width:100%;
   color:#fff;
