@@ -203,10 +203,12 @@ h4{
 @media(max-width:1050px){
   h3{
     line-height: normal;
+    padding-top: 10px;
   }
 
   h4{
     padding-top: 10px;
+    padding-bottom: 10px;
     line-height: normal;
     font-size: 1.25em;
   }
