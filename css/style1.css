@@ -34,6 +34,7 @@ html {
   padding-top:1em;
   margin:0 auto;
   width:80%;
+  text-align: center;
 }
 
 hr{
@@ -142,7 +143,7 @@ h4{
   padding: 15px 24px; /* Some padding */
   cursor: pointer; /* Pointer/hand icon */
   text-align: center;
-  font-family: 'Special Elite', cursive;
+  font-family: 'Muli', sans-serif;
   text-transform: uppercase;
   font-size:1.7em;
 }
@@ -223,7 +224,7 @@ h4{
   }
 
   .btn-group button {
-    padding: 5px 5px; /* Some padding */
+    padding: 10px 10px; /* Some padding */
   }
 }
 
