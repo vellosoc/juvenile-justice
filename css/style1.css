@@ -4,6 +4,11 @@ html {
   scroll-behavior: smooth;
 }
 
+body{
+  background-color: black;
+  color:white;
+}
+
 .hero-container {
   position: relative;
   text-align: center;
@@ -214,7 +219,7 @@ h4{
   }
 
   .centered{
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   #test{
@@ -224,7 +229,7 @@ h4{
 
 @media(max-width:760px){
   .centered{
-    font-size: 1.1em;
+    font-size: .9em;
   }
   #test{
     font-size: 1.1em;
