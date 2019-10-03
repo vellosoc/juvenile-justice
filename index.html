@@ -114,11 +114,19 @@
       <p class="video-caption">Video courtesy PBS NewsHour, produced in partnership with Injustice Watch and Capital News Service. It was produced by John Yang of PBS NewsHour and Julia Heimlich, Anna Muckerman, Pablo Roa and Mia Salenetri of Capital News Service.</p>
     </div><br>
 
-    <h1 class="story-heading">Maryland Articles</h1><br>
+  </div><br><!-- END Maryland Container -->
+
+  <!-- START The Nation Container -->
+
+  <div id="nation-container">
+
+    <p class="opening-text">America’s incarceration rate is the <a href="https://www.prisonstudies.org/highest-to-lowest/prison_population_rate">highest</a> in the world. Nearly <a href="https://www.prisonpolicy.org/reports/pie2019.html">2.3 million</a> people are currently locked up.
+    <br><br>
+    Tough-on-crime policies from the 90s <a href="https://www.sentencingproject.org/criminal-justice-facts/">drastically increased</a> the country’s prison population. States <a href="https://www.salon.com/2018/04/21/the-superpredator-myth-was-discredited-but-it-continues-to-ruin-young-black-lives/">cracked down on</a> juvenile crimes amid fears of a new generation of criminals - the “superpredator.” </p><br><br><br>
 
     <div class="row">
       <div class="col-sm-4">
-        <img src="images/gavel.jpg" alt="..." class="img-thumbnail" style="float:left;">
+        <img src="images/gavel.jpg" alt="..." style="float:left;">
       </div>
       <div class="col-sm-8">
         <h3>November 16, 2019</h3>
@@ -128,8 +136,7 @@
     </div>
 
 
-  </div><br><!-- END Maryland Container -->
-
+  </div><!-- END The Nation Container -->
 
 
   </div><br><br>
@@ -148,6 +155,16 @@
         setTimeout(function() {
             $("#test").delay(5500).fadeIn(1000);
           });
+    });
+
+    $("#maryland-button").click(function(){
+     $("#nation-container").hide();
+     $("#maryland-container").show();
+    });
+
+    $("#nation-button").click(function(){
+     $("#nation-container").show();
+     $("#maryland-container").hide();
     });
 
 </script>

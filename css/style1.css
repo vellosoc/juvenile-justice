@@ -212,4 +212,21 @@ h4{
     line-height: normal;
     font-size: 1.25em;
   }
+
+  .centered{
+    font-size: 1.2em;
+  }
+
+  #test{
+    font-size: 1.2em;
+  }
+}
+
+@media(max-width:760px){
+  .centered{
+    font-size: 1.2em;
+  }
+  #test{
+    font-size: 1.2em;
+  }
 }
