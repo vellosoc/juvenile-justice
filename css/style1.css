@@ -43,8 +43,8 @@ body{
   letter-spacing: normal;
   padding-top:1em;
   margin:0 auto;
-  width:80%;
-  text-align: center;
+  width:70%;
+  text-align: left;
 }
 
 hr{
@@ -52,21 +52,14 @@ hr{
   width: 20%;
 }
 
-.story-heading {
-  font-weight: 300;
-  text-align: center;
-  font-family: 'Muli', sans-serif;
-  font-size:2em;
-}
-
 a{
-   color: #5C3CD1;
-   text-decoration: underline;
+   color: #FF3B3F;
+   text-decoration: none;
 }
 
 a:hover{
-  text-decoration: none;
-  color:#8563FF;
+  text-decoration: underline;
+  color: #FF3B3F;
 }
 
 h3{
@@ -74,6 +67,7 @@ h3{
   font-size:1em;
   width:80%;
   padding-bottom: 5px;
+  color:#FF3B3F;
 }
 
 h4{
@@ -147,8 +141,8 @@ h4{
 }
 
 .btn-group button {
-  background-color: #757399; /* Green background */
-  border: 1px solid #3B3A4D; /* Green border */
+  background-color: #CC2F32; /* background */
+  border: 1px solid #801D1F; /* border */
   color: white; /* White text */
   padding: 15px 24px; /* Some padding */
   cursor: pointer; /* Pointer/hand icon */
@@ -160,11 +154,85 @@ h4{
 
 /* Maryland Container Elements */
 
+h1{
+  font-weight: 300;
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+  font-size:2em;
+}
+
+.author{
+  width: 60%;
+  margin: 0 auto;
+  font-size: 1em;
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+}
+
+.date{
+  width: 60%;
+  font-size: 1em;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+  margin-top: 5px;
+}
+
+.caption{
+  width: 70%;
+  margin: 0 auto;
+  font-size: 1.2em;
+  font-family: 'Antic Didone', serif;
+  letter-spacing: normal;
+}
+
+.more{
+  font-size: 1em;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.project{
+  background-color: #474747;
+  width: 60%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.about-project{
+  font-family: 'Muli', sans-serif;
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #E87F6F;
+
+}
+
+.about{
+  margin: 0 auto;
+  font-family: 'Muli', sans-serif;
+  letter-spacing: normal;
+  color: white;
+  font-size: 1em;
+  width: 50%;
+}
+
+.credits{
+  margin: 0 auto;
+  font-family: 'Muli', sans-serif;
+  letter-spacing: normal;
+  color: white;
+  font-size: 1em;
+  width: 50%;
+}
+
 .pbs-video{
   width:80%;
   margin:0 auto;
-  background-color: #C5C3E5;
-  padding:15px;
+  background-color: #3D3D3D;
+  padding:10px;
 }
 
 .video-caption{
@@ -191,16 +259,16 @@ h5{
 }
 
 .card{
-  background-color: #C5C3E5;
+  background-color: #222222;
 }
 
 .card-title{
-  color:black;
+  color:white;
 }
 
 .card-text{
   font-family: 'Antic Didone', serif;
-  color: black;
+  color: white;
 }
 
 .btn{
@@ -208,11 +276,12 @@ h5{
 }
 
 .btn-primary{
-  background-color: #312E66;
+  background-color: #FF3B3F;
+  border-color: #B3171A;
 }
 
 .btn-primary:hover{
-  background-color: #757399;
+  background-color: #B3171A;
 }
 
 .col-md-12{
@@ -223,6 +292,34 @@ h5{
   margin-bottom:2em;
 }
 
+span {
+    font-size: 1em;
+    color: #ccc;;
+    display: block;
+    line-height: 2;
+}
+img {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.center{
+
+  margin:0 auto;
+  width:77%;
+  text-align: left;
+
+}
+
+.btnText {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.fas{
+    text-align: right;
+    font-size: 3em;
+}
 
 /* Media Queries*/
 

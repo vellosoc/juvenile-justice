@@ -1,0 +1,339 @@
+/* Main Structural Elements */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  background-image: url("../images/dust_scratches.png");
+}
+
+
+/*body{
+  background-color: #191617;
+  color: white;
+}*/
+
+
+.hero-container {
+  position: relative;
+  text-align: center;
+  background-image: url("../images/crumpled-paper2.jpg");
+  height:100vh;
+}
+
+#tophat {
+  width:100%;
+  color:#fff;
+  background:#000;
+  font-family: 'Muli', sans-serif;
+  padding:3px;
+  text-align:center;
+  font-size:.75em;
+  text-transform:uppercase;
+  position:fixed;
+  z-index:10;
+  font-weight:bold;
+  opacity:.8;
+}
+
+.opening-text{
+  font-size:1.2em;
+  font-family: 'Antic Didone', serif;
+  letter-spacing: normal;
+  padding-top:1em;
+  margin:0 auto;
+  width:70%;
+  text-align: left;
+}
+
+hr{
+  border: 1px solid white;
+  width: 20%;
+}
+
+a{
+   color: #B01720;
+   text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: #6E3667;
+}
+
+h3{
+  font-family: 'Muli', sans-serif;
+  font-size:1em;
+  width:80%;
+  padding-bottom: 5px;
+  color:#B01720;
+}
+
+h4{
+  font-family: 'Muli', sans-serif;
+  font-size:1.5em;
+  font-weight: 800;
+  width:80%;
+  padding-bottom: 5px;
+}
+
+/* Animation */
+.centered {
+  font-family: 'Special Elite', cursive;
+  font-size: 1.5em;
+  letter-spacing: .2em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width:80;
+}
+
+.line-1{
+    color:white;
+    position: relative;
+    top: 50%;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 210%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+
+}
+
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 15em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(225,225,225.75);}
+  to{border-right-color: transparent;}
+}
+
+#test {
+    margin-top: 25px;
+    padding-top: 10px;
+    color:white;
+    font-family: 'Antic Didone', serif;
+    letter-spacing: normal;
+    font-size: 1em;
+    width:70%;
+    margin: 0 auto;
+    text-align: center;
+    display:none;
+    height:50px;
+}
+
+/* Maryland and The Nation button styles */
+#wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-group button {
+  background-color: #49274A; /* background */
+  border: 1px solid #3B3A4D; /* border */
+  color: white; /* White text */
+  padding: 15px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  text-align: center;
+  font-family: 'Special Elite', cursive;
+  text-transform: uppercase;
+  font-size:1.7em;
+}
+
+/* Maryland Container Elements */
+
+h1{
+  font-weight: 300;
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+  font-size:2em;
+}
+
+.author{
+  width: 60%;
+  margin: 0 auto;
+  font-size: 1em;
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+}
+
+.date{
+  width: 60%;
+  font-size: 1em;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+  margin-top: 5px;
+}
+
+.caption{
+  width: 70%;
+  margin: 0 auto;
+  font-size: 1.2em;
+  font-family: 'Antic Didone', serif;
+  letter-spacing: normal;
+}
+
+.more{
+  font-size: 1em;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.project{
+  background-color:#535353;
+  width: 60%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.about-project{
+  font-family: 'Muli', sans-serif;
+  font-size: 1.2em;
+  color: white;
+  font-weight: bold;
+}
+
+.about{
+  margin: 0 auto;
+  font-family: 'Muli', sans-serif;
+  letter-spacing: normal;
+  color: white;
+  font-size: 1em;
+}
+
+.credits{
+  margin: 0 auto;
+  font-family: 'Muli', sans-serif;
+  letter-spacing: normal;
+  color: white;
+  font-size: 1em;
+}
+
+.pbs-video{
+  width:80%;
+  margin:0 auto;
+  background-color: #1A0315;
+  padding:10px;
+}
+
+.video-caption{
+  font-family: 'Muli', sans-serif;
+  font-size: 1em;
+  margin-top:20px;
+  color:black;
+}
+
+.row{
+  width:80%;
+  margin: 0 auto;
+}
+
+.description-text{
+  font-size:1.2em;
+  font-family: 'Antic Didone', serif;
+  letter-spacing: normal;
+}
+
+h5{
+  font-family: 'Muli', sans-serif;
+  font-size: 1.5em;
+}
+
+.card{
+  background-color: #EFEFEF;
+  border: 1px solid black;
+}
+
+.card-title{
+  color:black;
+}
+
+.card-text{
+  font-family: 'Antic Didone', serif;
+  color: black;
+}
+
+.btn{
+  font-family: 'Antic Didone', serif;
+}
+
+.btn-primary{
+  background-color: #49274A;
+  border-color: #1A0315;
+}
+
+.btn-primary:hover{
+  background-color: #967D96;
+  border-color: #1A0315;
+}
+
+.col-md-12{
+  margin-bottom:2em;
+}
+
+.col-sm-12{
+  margin-bottom:2em;
+}
+
+
+/* Media Queries*/
+
+@media(max-width:1050px){
+  h3{
+    line-height: normal;
+    padding-top: 10px;
+  }
+
+  h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: normal;
+    font-size: 1.25em;
+  }
+
+  .centered{
+    font-size: 1em;
+  }
+
+  #test{
+    font-size: 1.2em;
+  }
+
+  .btn-group button {
+    padding: 10px 10px; /* Some padding */
+  }
+
+  #wrapper{
+    width:100%;
+  }
+
+  .btn-group button{
+    font-size:1.4em;
+  }
+}
+
+@media(max-width:760px){
+  .centered{
+    font-size: .8em;
+    letter-spacing: .1em;
+  }
+  #test{
+    font-size: 1.2em;
+  }
+}
