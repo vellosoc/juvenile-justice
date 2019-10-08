@@ -8,6 +8,32 @@ body {
   color: black;
 }
 
+
+
+
+span {
+    font-size: 1em;
+    color: #ccc;;
+    display: block;
+    line-height: 2;
+}
+img {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.center{
+
+  margin:0 auto;
+  width:77%;
+  text-align: left;
+
+}
+
+.btnText {
+    vertical-align: middle;
+    display: inline-block;
+}
 #tophat {
   width:100%;
   color:#fff;
