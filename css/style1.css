@@ -4,6 +4,16 @@ html {
   scroll-behavior: smooth;
 }
 
+body{
+  background-image: url("../images/black_paper.png");
+  color: white;
+}
+
+/*body{
+  background-color: #191617;
+  color: white;
+}*/
+
 
 .hero-container {
   position: relative;
@@ -63,7 +73,7 @@ h3{
   font-family: 'Muli', sans-serif;
   font-size:1em;
   width:80%;
-  line-height: 2;
+  padding-bottom: 5px;
 }
 
 h4{
@@ -71,7 +81,7 @@ h4{
   font-size:1.5em;
   font-weight: 800;
   width:80%;
-  line-height: 2;
+  padding-bottom: 5px;
 }
 
 /* Animation */
@@ -143,34 +153,9 @@ h4{
   padding: 15px 24px; /* Some padding */
   cursor: pointer; /* Pointer/hand icon */
   text-align: center;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Special Elite', cursive;
   text-transform: uppercase;
   font-size:1.7em;
-}
-
-.active{
-  background-color: #312E66 !important;
-}
-
-.not-active:hover{
-  background-color: #312E66 !important;
-  .active{
-    background-color: #757399 !important;
-  }
-}
-
-.btn-group:after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.btn-group button:not(:last-child) {
-  border-right: none; /* Prevent double borders */
-}
-
-.btn-group button:hover {
-  background-color: #3B3A4D;
 }
 
 /* Maryland Container Elements */
@@ -178,7 +163,7 @@ h4{
 .pbs-video{
   width:80%;
   margin:0 auto;
-  background-color: #3B3A4D;
+  background-color: #C5C3E5;
   padding:15px;
 }
 
@@ -186,7 +171,7 @@ h4{
   font-family: 'Muli', sans-serif;
   font-size: 1em;
   margin-top:20px;
-  color:white;
+  color:black;
 }
 
 .row{
@@ -199,6 +184,45 @@ h4{
   font-family: 'Antic Didone', serif;
   letter-spacing: normal;
 }
+
+h5{
+  font-family: 'Muli', sans-serif;
+  font-size: 1.5em;
+}
+
+.card{
+  background-color: #C5C3E5;
+}
+
+.card-title{
+  color:black;
+}
+
+.card-text{
+  font-family: 'Antic Didone', serif;
+  color: black;
+}
+
+.btn{
+  font-family: 'Antic Didone', serif;
+}
+
+.btn-primary{
+  background-color: #312E66;
+}
+
+.btn-primary:hover{
+  background-color: #757399;
+}
+
+.col-md-12{
+  margin-bottom:2em;
+}
+
+.col-sm-12{
+  margin-bottom:2em;
+}
+
 
 /* Media Queries*/
 
@@ -229,6 +253,10 @@ h4{
 
   #wrapper{
     width:100%;
+  }
+
+  .btn-group button{
+    font-size:1.4em;
   }
 }
 
