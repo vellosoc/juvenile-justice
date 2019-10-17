@@ -140,9 +140,16 @@ h4{
   justify-content: center;
 }
 
+.active{
+  background-color: red;
+}
+
+.unactive{
+  background-color: grey;
+}
+
 .btn-group button {
-  background-color: #CC2F32; /* background */
-  border: 1px solid #801D1F; /* border */
+
   color: white; /* White text */
   padding: 15px 24px; /* Some padding */
   cursor: pointer; /* Pointer/hand icon */

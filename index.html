@@ -68,22 +68,6 @@
     <meta name="parsely-author" content="CNS Maryland" />
     <meta name="parsely-tags" content="" />
 
-
-  <!--  <script type="text/javascript">
-        clicked = true;
-        $(document).ready(function(){
-            $("button").click(function(){
-                if(clicked){
-                    $(this).css('background-color', '#CC2F32');
-                    clicked  = false;
-                } else {
-                    $(this).css('background-color', '#801D1F');
-                    clicked  = true;
-                }
-            });
-        });
-      </script> -->
-
 </head>
 
 <body>
@@ -107,8 +91,8 @@
 
   <div id="wrapper">
     <div class="btn-group" style="width:80%;">
-      <button id="maryland-button" style="width:50%; text-align: center;">Maryland</button>&nbsp &nbsp &nbsp
-      <button id="nation-button" style="width:50%; text-align: center;">The Nation</button>
+      <button id="maryland-button" class="active" style="width:50%; text-align: center;">Maryland</button>&nbsp &nbsp &nbsp
+      <button id="nation-button" class="unactive" style="width:50%; text-align: center;">The Nation</button>
     </div>
   </div>
 
@@ -301,11 +285,16 @@
     $("#maryland-button").click(function(){
      $("#nation-container").hide();
      $("#maryland-container").show();
+     $("#maryland-button").addClass("active").removeClass("unactive");
+     $("#nation-button").addClass("unactive").removeClass("active");
     });
 
     $("#nation-button").click(function(){
      $("#nation-container").show();
      $("#maryland-container").hide();
+     $("#nation-button").addClass("active").removeClass("unactive");
+     $("#maryland-button").addClass("unactive").removeClass("active");
+
     });
 
 </script>
