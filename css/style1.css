@@ -7,6 +7,7 @@ html {
 body{
   background-image: url("../images/black_paper.png");
   color: white;
+
 }
 
 /*body{
@@ -53,13 +54,13 @@ hr{
 }
 
 a{
-   color: #FF3B3F;
+   color: #A08EFA;
    text-decoration: none;
 }
 
 a:hover{
   text-decoration: underline;
-  color: #FF3B3F;
+  color: #B5A7FA;
 }
 
 h3{
@@ -67,7 +68,7 @@ h3{
   font-size:1em;
   width:80%;
   padding-bottom: 5px;
-  color:#FF3B3F;
+  color:#B5A7FA;
 }
 
 h4{
@@ -140,23 +141,47 @@ h4{
   justify-content: center;
 }
 
+button:focus {
+  outline: 0 !important;
+}
+
+
 .active{
-  background-color: red;
+  background-color: #6F63AD;
+  color: white; /* White text */
+  border-color: #6F63AD;
 }
 
 .unactive{
-  background-color: grey;
+  background-color: #F3F3F3;
+  color: black; /* black text */
+  border-color:  #F3F3F3;
 }
 
 .btn-group button {
-
-  color: white; /* White text */
   padding: 15px 24px; /* Some padding */
   cursor: pointer; /* Pointer/hand icon */
   text-align: center;
   font-family: 'Special Elite', cursive;
   text-transform: uppercase;
   font-size:1.7em;
+}
+
+.button-group{
+  background-color: #6F63AD;
+  border-color: #4F467A;
+  color: white;
+  padding: 12px 15px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  font-family: 'Antic Didone', serif;
+  font-size:1em;
+  border-radius: 6px;
+  text-align: left;
+}
+
+
+.button-group:hover{
+  background-color: #4F467A;
 }
 
 /* Maryland Container Elements */
@@ -174,6 +199,13 @@ h1{
   font-size: 1em;
   text-align: center;
   font-family: 'Muli', sans-serif;
+}
+
+.author-two{
+  font-size: .9em;
+  font-family: 'Muli', sans-serif;
+  font-style: italic;
+  margin-top: 20px;
 }
 
 .date{
@@ -244,9 +276,9 @@ h1{
 
 .video-caption{
   font-family: 'Muli', sans-serif;
-  font-size: 1em;
+  font-size: .9em;
   margin-top:20px;
-  color:black;
+  color:white;
 }
 
 .row{
@@ -283,12 +315,13 @@ h5{
 }
 
 .btn-primary{
-  background-color: #FF3B3F;
-  border-color: #B3171A;
+  background-color: #6F63AD;
+  border-color: #4F467A;
 }
 
 .btn-primary:hover{
-  background-color: #B3171A;
+  background-color: #4F467A;
+  outline: 0 !important;
 }
 
 .col-md-12{
