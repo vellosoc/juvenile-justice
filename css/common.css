@@ -12,6 +12,22 @@ html {
   opacity:.8;
 }
 
+.hero-container {
+  height: 100vh;
+}
+
+.container {
+  width:100%;
+
+}
+
+
+.story-container {
+  width: 100%;
+  background-image: url("../images/black_paper.png");
+  color: white;
+}
+
 
 
 .column {
@@ -63,11 +79,6 @@ h4{
   }
 
 
-
-.container{
-    width: 100%;
-
-  }
 
   p{
     font-family: 'Antic Didone', serif;

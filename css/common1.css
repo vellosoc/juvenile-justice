@@ -1,0 +1,55 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#tophat {
+  color:white;
+  background:#000;
+  font-family: 'Muli', sans-serif;
+  text-align:center;
+  font-size:.75em;
+  text-transform:uppercase;
+  opacity:.8;
+}
+
+.hero-container {
+  height: 100vh;
+}
+
+.container {
+  width:100%;
+}
+
+.story-container {
+  width: 100%;
+  background-image: url("../images/black_paper.png");
+  color: white;
+}
+
+.cover-img {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+
+  p{
+    font-family: 'Antic Didone', serif;
+    font-size: 1.25em;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  a{
+     color: #8A26CC ;
+     text-decoration: underline;
+
+  }
+
+  a:hover{
+    text-decoration: none;
+    color: #AD30FF;
+  }
