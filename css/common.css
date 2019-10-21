@@ -4,12 +4,54 @@ html {
 
 #tophat {
   color:white;
-  background:#000;
   font-family: 'Muli', sans-serif;
   text-align:center;
-  font-size:.75em;
-  text-transform:uppercase;
-  opacity:.8;
+  font-size:1.1em;
+  line-height: normal;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+}
+
+.col.one a{
+  color: white !important;
+   text-decoration: none !important;;
+
+}
+
+.col.one a:hover{
+  color: white !important;
+   text-decoration: none !important;;
+
+}
+
+.col.one{
+  text-align: left;
+  margin-left: 5px;
+  font-size: .75em;
+  font-family: 'Special Elite', cursive;
+  color: white;
+}
+
+.col.three{
+  text-align: right;
+  margin-right: 5px;
+  font-size: 1em;
+  color: white;
+}
+
+
+.col.one1{
+  text-align: left;
+  margin-left: 10px;
+  font-size: .75em;
+  font-family: 'Muli', sans-serif;
+  color: white;
+}
+
+.col.three1{
+  text-align: right;
+  margin-right: 10px;
 }
 
 .hero-container {
@@ -28,7 +70,10 @@ html {
   color: white;
 }
 
-
+.width{
+  width: 70%;
+  margin: 0 auto;
+}
 
 .column {
   width:50%;
@@ -52,28 +97,28 @@ html {
 
 h1{
     font-family: 'Antic Didone', serif;
-    font-size: 1.25em;
+    font-size: 1em;
     color: white;
     text-align: center;
   }
 
 h2{
-  font-family: 'Special Elite', cursive;
+    font-family: 'Antic Didone', serif;
     font-size: 4em;
     color: white;
     text-align: center;
   }
 
 h3{
-  font-family: 'Antic Didone', serif;
-    font-size: 1.5em;
+    font-family: 'Muli', sans-serif;
+    font-size: 1.2em;
     color: white;
     text-align: center;
   }
 
 h4{
     font-family: 'Antic Didone', serif;
-    font-size: 1.25em;
+    font-size: 1em;
     color: white;
     text-align: center;
   }
@@ -88,12 +133,12 @@ h4{
   }
 
   a{
-     color: #8A26CC ;
+     color: #D9B269;
      text-decoration: underline;
 
   }
 
   a:hover{
     text-decoration: none;
-    color: #AD30FF;
+    color: #FFDA94;
   }

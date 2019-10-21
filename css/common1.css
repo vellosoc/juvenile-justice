@@ -4,16 +4,58 @@ html {
 
 #tophat {
   color:white;
-  background:#000;
   font-family: 'Muli', sans-serif;
   text-align:center;
-  font-size:.75em;
-  text-transform:uppercase;
-  opacity:.8;
+  font-size:1.1em;
+  line-height: normal;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
 }
+
+.col.one{
+  text-align: left;
+  margin-left: 10px;
+  font-size: .85em;
+  font-family: 'Special Elite', cursive;
+  color: white;
+}
+
+.col.three{
+  text-align: right;
+  margin-right: 10px;
+}
+
 
 .hero-container {
   height: 100vh;
+    margin-bottom: 0;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.article-title{
+  font-family: 'Antic Didone', serif;
+  font-size: 4em;
+  color: white;
+}
+
+.article-desc{
+  font-family: 'Muli', sans-serif;
+  font-size: 1.2em;
+  color: white;
+}
+
+.article-author{
+  font-family: 'Antic Didone', serif;
+  font-size: 1em;
+  color: white;
 }
 
 .container {
@@ -24,6 +66,7 @@ html {
   width: 100%;
   background-image: url("../images/black_paper.png");
   color: white;
+  margin-top: 0;
 }
 
 .cover-img {
@@ -36,14 +79,55 @@ html {
 }
 
 
+h1{
+    font-family: 'Muli', sans-serif;
+    font-size: 1.25em;
+    color: white;
+    text-align: center;
+  }
+
+h2{
+  font-family: 'Antic Didone', serif;
+    font-size: 4em;
+    color: white;
+    text-align: center;
+  }
+
+h3{
+    font-family: 'Muli', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+
+h4{
+    font-family: 'Antic Didone', serif;
+    font-size: 1.25em;
+    color: white;
+    text-align: center;
+  }
+
   p{
     font-family: 'Antic Didone', serif;
     font-size: 1.25em;
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
   }
 
-  a{
+  .col.one a{
+    color: white !important;
+     text-decoration: none !important;;
+
+  }
+
+  .col.one a:hover{
+    color: white !important;
+     text-decoration: none !important;;
+
+  }
+
+a{
      color: #8A26CC ;
      text-decoration: underline;
 

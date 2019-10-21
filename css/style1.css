@@ -15,7 +15,6 @@ body{
   color: white;
 }*/
 
-
 .hero-container {
   position: relative;
   text-align: center;
@@ -26,17 +25,41 @@ body{
 #tophat {
   width:100%;
   color:#fff;
-  background:#000;
   font-family: 'Muli', sans-serif;
-  padding:3px;
-  text-align:center;
-  font-size:.75em;
-  text-transform:uppercase;
   position:fixed;
   z-index:10;
-  font-weight:bold;
-  opacity:.8;
+  line-height: normal;
+  padding: 10px;
+
 }
+
+.col.one{
+  text-align: left;
+  margin-left:-13%;
+  font-size: .9em;
+  font-family: 'Special Elite', cursive;
+  color: white;
+
+}
+
+.col.three{
+  text-align: right;
+margin-right:-13%;
+
+}
+
+.col.one a{
+  color: white !important;
+   text-decoration: none !important;;
+
+}
+
+.col.one a:hover{
+  color: white !important;
+   text-decoration: none !important;;
+
+}
+
 
 .opening-text{
   font-size:1.2em;
@@ -54,13 +77,13 @@ hr{
 }
 
 a{
-   color: #A08EFA;
+   color: #D9B269;
    text-decoration: none;
 }
 
 a:hover{
   text-decoration: underline;
-  color: #B5A7FA;
+  color: #FFDA94;
 }
 
 h3{
@@ -68,7 +91,7 @@ h3{
   font-size:1em;
   width:80%;
   padding-bottom: 5px;
-  color:#B5A7FA;
+  color:#FFDA94;
 }
 
 h4{
@@ -79,10 +102,15 @@ h4{
   padding-bottom: 5px;
 }
 
+/* .partners{
+  font-family: 'Antic Didone', serif;
+  font-size: 1em;
+  padding: 5px;
+} */
+
 /* Animation */
 .centered {
   font-family: 'Special Elite', cursive;
-  font-size: 1.5em;
   letter-spacing: .2em;
   position: absolute;
   top: 50%;
@@ -95,10 +123,10 @@ h4{
     color:white;
     position: relative;
     top: 50%;
-    width: 24em;
+    width: 22em;
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 210%;
+    font-size: 4em;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
@@ -120,12 +148,12 @@ h4{
 }
 
 #test {
-    margin-top: 25px;
+    margin-top: 20px;
     padding-top: 10px;
     color:white;
-    font-family: 'Antic Didone', serif;
+    font-family: 'Muli', sans-serif;
     letter-spacing: normal;
-    font-size: 1em;
+    font-size: 1.3em;
     width:70%;
     margin: 0 auto;
     text-align: center;
@@ -147,15 +175,15 @@ button:focus {
 
 
 .active{
-  background-color: #6F63AD;
-  color: white; /* White text */
-  border-color: #6F63AD;
+  background-color: #D9B269;
+  color: black; /* White text */
+  border-color: #D9B269;
 }
 
 .unactive{
-  background-color: #F3F3F3;
+  background-color: #EAEAEA;
   color: black; /* black text */
-  border-color:  #F3F3F3;
+  border-color:  #EAEAEA;
 }
 
 .btn-group button {
@@ -168,20 +196,21 @@ button:focus {
 }
 
 .button-group{
-  background-color: #6F63AD;
-  border-color: #4F467A;
-  color: white;
-  padding: 12px 15px; /* Some padding */
+  background-color: #D9B269;
+  border-color: #D9B269;
+  color: black;
+  padding: 10px 10px; /* Some padding */
   cursor: pointer; /* Pointer/hand icon */
   font-family: 'Antic Didone', serif;
   font-size:1em;
   border-radius: 6px;
   text-align: left;
+
 }
 
 
 .button-group:hover{
-  background-color: #4F467A;
+  background-color: #BDA172;
 }
 
 /* Maryland Container Elements */
@@ -241,13 +270,6 @@ h1{
   padding: 15px;
 }
 
-.about-project{
-  font-family: 'Muli', sans-serif;
-  font-size: 1.2em;
-  font-weight: 400;
-  color: #E87F6F;
-
-}
 
 .about{
   margin: 0 auto;
@@ -270,7 +292,7 @@ h1{
 .pbs-video{
   width:80%;
   margin:0 auto;
-  background-color: #3D3D3D;
+  background-color: #3E3F3A;
   padding:10px;
 }
 
