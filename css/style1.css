@@ -27,7 +27,7 @@ body{
 .hero-container {
   position: relative;
   text-align: center;
-  background-image: url("../images/inside-prison-dark.jpg");
+  background-image: url("../images/prison-main.png");
   height:100vh;
   background-repeat: no-repeat;
 }
