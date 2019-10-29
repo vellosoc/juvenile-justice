@@ -1,0 +1,18 @@
+When you click on a particular county, the following information will be available (in numbers or percentages):
+# of juvenile lifers resentenced
+# of juvenile lifers released
+# of juvenile lifers resentenced to non-life terms
+# of juvenile lifers resentenced to life without parole
+# cases still pending resentencing
+
+For example,
+Philadelphia had 304 total juvenile lifers.
+275 total resentanced
+55.9% or 170 juvenile lifers from Philadelphia have been released since 2016.
+32.9% or 100 juvenile lifers have been re-sentenced to non-life terms.
+1.3% or 4 juvenile lifers have been given life without parole again.
+8.9% or 27 juvenile lifers are still waiting for their resentencing.
+
+To Do:
+Make Maryland version
+? Hide map / make white

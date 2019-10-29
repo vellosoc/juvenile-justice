@@ -15,11 +15,21 @@ body{
   color: white;
 }*/
 
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
 .hero-container {
   position: relative;
   text-align: center;
-  background-image: url("../images/crumpled-paper2.jpg");
+  background-image: url("../images/inside-prison-dark.jpg");
   height:100vh;
+  background-repeat: no-repeat;
 }
 
 #tophat {

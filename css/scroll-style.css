@@ -1,0 +1,73 @@
+/* scrollama */
+
+.container-fluid{
+  background-color: black;
+}
+
+.scrolling-text{
+  font-family: 'Muli', sans-serif;
+  font-size: 1.1em;
+  color: white;
+  width: 100%;
+}
+
+.scroll-graphic {
+  position: -webkit-sticky;
+  position: sticky;
+  top:0;
+  height: 60vh;
+}
+
+.step {
+  padding-top: 45%;
+  height: 50vh;
+  margin-right: 20%;
+}
+
+.scroll-graphic-tab{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+.col-graphic{
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  background-color: black;
+}
+
+
+.img-fluid-trees {
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  .scroll-graphic {
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    height: 100vh;
+  }
+
+
+  .img-fluid-trees {
+      max-height:100vh !important;
+    }
+
+  .step {
+    height: 100vh;
+  }
+
+  .col-graphic{
+    position: relative;
+  }
+
+  .scroll-text{
+    /* height: 100vh;
+    overflow: hidden; */
+  }
+}

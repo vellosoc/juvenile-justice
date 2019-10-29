@@ -40,8 +40,22 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.1/d3.min.js" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.13/c3.min.js"></script>
 
+    <!-- Leaflet's CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+     integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+     crossorigin=""/>
+
+    <!-- Leaflet's JS - Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+      integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+      crossorigin=""></script>
+
+
     <!-- our CSS  -->
     <link rel="stylesheet" href="css/common1.css">
+
+    <!-- Required for sidescroll -->
+    <link rel="stylesheet" href="css/scroll-style.css">
 
     <!-- Fontawesome  -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
@@ -54,8 +68,11 @@
     <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli:400,800&display=swap" rel="stylesheet">
 
-  <!-- JQuery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <!-- Jquery call -->
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
@@ -124,7 +141,94 @@
 </div>
 </div>
 
-<!-- START Whole page Container -->
+<!-- START Responsive SIDE SCROLL Scrollytelling -->
+
+  <div class="container-fluid" id="scroll">
+    <div class="row">
+
+      <div class="col-lg-8 col-graphic">
+        <div class='scroll-graphic'>
+
+          <div data-step='1' class="scroll-graphic-tab d-block">
+            <img class="img-fluid img-fluid-trees" src="images/dark-dots.png" alt="" />
+          </div>
+
+          <div data-step='2' class="scroll-graphic-tab d-none">
+            <img class="img-fluid img-fluid-trees" src="images/data-race-min.png" alt="" />
+          </div>
+          <div data-step='3' class="scroll-graphic-tab d-none">
+            <img class="img-fluid img-fluid-trees" src="images/data-race-white.png" alt="" />
+          </div>
+
+
+          <div data-step='4' class="scroll-graphic-tab d-none">
+            <img class="img-fluid img-fluid-trees" src="images/data-gender.png" alt="" />
+          </div>
+
+
+          <div data-step='5' class="scroll-graphic-tab d-none">
+            <img class="img-fluid img-fluid-trees" src="images/data-released.png" alt="" />
+          </div>
+
+          <div data-step='6' class="scroll-graphic-tab d-none">
+            <img class="img-fluid img-fluid-trees" src="images/data-pending.png" alt="" />
+          </div>
+
+
+          <div data-step='7' class="scroll-graphic-tab d-none">
+            <img class="img-fluid img-fluid-trees" src="images/data-resentenced.png" alt="" />
+          </div>
+
+          <div data-step='8' class="scroll-graphic-tab d-none">
+            <img class="img-fluid img-fluid-trees" src="images/data-life.png" alt="" />
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class='scroll-text'>
+          <div class='step'> <!-- Step 1 -->
+            <p class="scrolling-text"><span class="red"><strong>Juvenile Justice in Philadelphia</strong></span></p><br>
+            <p class="scrolling-text">Philadelphia had the largest juvenile lifer population of any jurisdiction across the United States at 304.</p>
+          </div>
+          <div class='step'> <!-- Step 2 -->
+            <p class="scrolling-text">288 of the juvenile lifers were black or hispanic.</p>
+          </div>
+          <div class='step'> <!-- Step 3 -->
+            <p class="scrolling-text">16 were white.</p>
+          </div>
+
+
+          <div class='step'> <!-- Step 4 -->
+            <p class="scrolling-text">Among the juvenile population, only 4 women had been sentenced to life without parole.</p>
+          </div>
+
+          <div class='step'> <!-- Step 5 -->
+            <p class="scrolling-text">Since 2016, when the Supreme Court ruled mandatory life sentences for juveniles unconsitutional, Philadelphia has released 170 juvenile lifers.</p>
+          </div>
+          <div class='step'> <!-- Step 6 -->
+            <p class="scrolling-text">27 juvenile lifers are pending resentencing.</p>
+          </div>
+
+          <div class='step'> <!-- Step 7 -->
+            <p class="scrolling-text">104 have been resentenced.</p>
+          </div>
+          <div class='step'> <!-- Step 8 -->
+            <p class="scrolling-text">100 have been resentenced to non-life terms and 4 have been resentenced to life.</p>
+          </div>
+
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+<!-- END Responsive SIDESCROLL Scrollytelling -->
+
+
+<!-- START Whole page Container
 <div class="data-viz">
 
   <div class="row">
@@ -135,7 +239,7 @@
       <p class="data-text" style="color:#a1a1a1;"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div><br><br>
 </div>
-</div>
+</div>-->
 
 <div class="story-container">
   <div class="container"><br><br>
@@ -147,7 +251,72 @@
 
 
 </div>
+</div><!-- CLOSE main story -->
+
+<div class="leaflet-container"><!-- Leaflet map -->
+  <!-- This is the div that displays the map -->
+<!-- This is the div that displays the map -->
+
+<div class="row">
+  <div class="col-lg-6">
+    <div id="mapid"></div>
+  </div>
+
+  <div class="col-lg-6">
+<!-- This div shows the resentancing number depending on what county is clicked -->
+<div id="resentancing-data">
+  <div class="county_nam">Pennsylvania</div>
+  <div class="total">Juvenile lifer population in 2016:  <strong style="color:#D9B269">521</strong></div>
+  <div class="total_resentanced">Total resentenced since 2016: <strong style="color:#D9B269">441</strong></div>
+  <div class="released">Total released since 2016: <strong style="color:#D9B269">209</strong> </div>
+  <div class="resentanced_nonlife">Total resentenced to non-life terms: <strong style="color:#D9B269">216</strong></div>
+  <div class="given_life">Total resentenced to LWOP: <strong style="color:#D9B269">15</strong></div>
+  <div class="waiting_resentance">Total pending resentencing: <strong style="color:#D9B269">77</strong></div>
 </div>
+
+</div>
+</div>
+</div><!-- CLOSE Leaflet map -->
+
+<!-- START story container -->
+<div class="story-container">
+  <div class="container"><br><br>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><br><br>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><br><br>
+
+
+
+</div>
+</div>
+
+
+<!-- JavaScript calls -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<!-- required for scrollama side scroll -->
+<script src='lib/stickyfill.min.js'></script>
+<script src='lib/intersection-observer.js'></script>
+<script src='lib/scrollama.min.js'></script>
+
+<!-- app js file - Required for sidescroll-->
+<script src="js/scroll-app.js"></script>
+
+<!-- Call in both data sources for the map-->
+  <!-- This is the geometry-->
+  <script type="text/javascript" src="js/pa-county.js"></script>
+
+  <!-- this is the resentancing data-->
+  <script type="text/javascript" src="js/data2.js"></script>
+
+
+<!-- This is the script that builds and controls the map-->
+<script type="text/javascript" src="js/map-script.js"></script>
+
 
 </body>
 </html>

@@ -1,0 +1,68 @@
+<!doctype html>
+
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>PA Counties resentancing map</title>
+  <meta name="description" content="Merrill College of Journalism, UMD">
+  <meta name="author" content="Adam Marton">
+
+    <!-- Leaflet's CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+     integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+     crossorigin=""/>
+
+    <!-- Leaflet's JS - Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+      integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+      crossorigin=""></script>
+
+    <link type="text/css" rel="stylesheet" href="style.css">
+
+
+      <!-- Jquery call -->
+      <script
+      			  src="https://code.jquery.com/jquery-3.4.1.min.js"
+      			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      			  crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+  <!-- This is the div that displays the map -->
+  <div id="mapid"></div>
+
+
+  <!-- This div shows the resentancing number depending on what county is clicked -->
+  <div id="resentancing-data">
+    <div class="county_nam">PENNSYLVANIA</div>
+    <div class="total"><strong>211</strong> total juvenile lifers</div>
+    <div class="total_resentanced"><strong>33</strong> total resentanced</div>
+    <div class="released"><strong>12</strong> juvenile lifers have been released since 2016 </div>
+    <div class="resentanced_nonlife"><strong>9</strong> juvenile lifers have been resentenced to non-life terms</div>
+    <div class="given_life"><strong>2</strong> juvenile lifers have been given life without parole again</div>
+    <div class="waiting_resentance"><strong>7</strong> juvenile lifers are still waiting for their resentencing</div>
+  </div>
+
+
+<!-- Call in both data sources for the map-->
+  <!-- This is the geometry-->
+  <script type="text/javascript" src="pa-county.js"></script>
+
+  <!-- this is the resentancing data-->
+  <script type="text/javascript" src="data2.js"></script>
+
+
+<!-- This is the script that builds and controls the map-->
+<script type="text/javascript" src="map-script.js"></script>
+
+
+
+
+</body>
+</html>

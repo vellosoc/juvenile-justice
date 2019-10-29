@@ -153,3 +153,55 @@ a{
 .data-text{
   margin-top: 40vh;
 }
+
+#mapid {
+  height: 500px;width:600px;
+}
+
+.leaflet-container {
+    background-color:black;
+}
+
+.county_nam{
+  font-family: 'Muli', sans-serif;
+  font-size: 3em;
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 15%;
+}
+
+.total_resentanced{
+  font-family: 'Muli', sans-serif;
+  font-size: 1.5em;
+  color: white;
+}
+
+.released{
+  font-family: 'Muli', sans-serif;
+  font-size: 1.5em;
+  color: white;
+}
+
+.resentanced_nonlife{
+  font-family: 'Muli', sans-serif;
+  font-size: 1.5em;
+  color: white;
+}
+
+.given_life{
+  font-family: 'Muli', sans-serif;
+  font-size: 1.5em;
+  color: white;
+}
+
+.waiting_resentance{
+  font-family: 'Muli', sans-serif;
+  font-size: 1.5em;
+  color: white;
+}
+
+.total{
+  font-family: 'Muli', sans-serif;
+  color: white;
+  font-size: 1.5em;
+}
