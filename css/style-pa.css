@@ -1,0 +1,155 @@
+
+
+/** CSS by Ally Tobler :) **/
+
+.container {
+  width:100%;
+  /**max-width: 1200px;**/
+  background-color: black;
+}
+
+.leaflet-container {
+  background: black;
+}
+
+#mapid {
+  height: 500px;
+  width: 100%;
+}
+
+#resentancing-data {
+/**width: 50%;**/
+font-family: 'Antic Didone', serif;
+font-size: 18px;
+line-height: normal;
+color: white;
+}
+
+#number {
+font-family: 'Muli', sans-serif;
+font-size: 60px;
+/**color: #3E3F3A;**/
+text-shadow: 0 0 5px #D9B269;
+}
+
+#smallnumber {
+  font-family: 'Muli', sans-serif;
+  font-size: 27px;
+
+}
+
+#percentage {
+  font-size: 27px;
+  font-family: 'Muli', sans-serif;
+  padding-top: 10px;
+  text-align: left;
+
+}
+
+hr {
+ /**margin-top: 0.5em;
+ margin-bottom: 0.5em;
+ margin-left: auto;
+ margin-right: auto;**/
+ width: 150px;
+ border: 5px solid white;
+border-radius: 5px;
+}
+
+.highlight {
+  /**background-image: linear-gradient(-100deg, rgba(255, 255, 255, 0), #D9B269 85%, rgba(255, 255, 255, 0));**/
+
+background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #3E3F3A 50%);
+
+  /**text-decoration: underline;
+  text-underline-position: under right;
+  text-decoration-color: rgba(217, 178, 105, 100%);**/
+
+  /**border-bottom: 5px solid rgba(217, 178, 105, 0.5);
+  border-spacing: 1cm 2em;
+  position: sticky;**/
+
+
+
+  /**text-shadow:
+   2px 2px white,
+   2px -2px white,
+   -2px 2px white,
+   -2px -2px white;**/
+}
+
+.county_nam {
+  font-family: 'Muli', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  font-weight: lighter;
+  padding: 5px;
+}
+
+.total {
+text-align: center;
+}
+
+.total_resentanced {
+text-align: center;
+
+}
+
+.released {
+
+line-height: 1.6;
+text-align: left;
+padding: 5px;
+}
+
+.resentanced_nonlife {
+
+line-height: 1.6;
+text-align: left;
+padding: 5px;
+}
+
+.given_life {
+
+line-height: 1.6;
+text-align: left;
+padding: 5px;
+}
+
+.waiting_resentance {
+
+line-height: 1.6;
+text-align: left;
+padding: 5px;
+}
+
+.total_minority {
+  text-align: left;
+  padding-top: 15px;
+}
+
+.total_white {
+  text-align: left;
+padding-top: 15px;
+}
+.asterisk {
+  font-size: 30px;
+  color: white;
+  text-align: left;
+}
+
+.races {
+  font-size: 13px;
+  float: right;
+  color: white;
+  padding-top: 15px;
+  position: fixed right;
+}
+
+.credits {
+  font-size: 10px;
+  text-align: right;
+  color: white;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}

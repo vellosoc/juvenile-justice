@@ -96,7 +96,7 @@
     <div class="hero-container">
       <div id="tophat">
         <div class="row">
-          <div class="col one">
+          <div class="col  one">
             <a href=""><i class="fa fa-home" style="color: white; font-size: 1.2em;"></i>&nbsp SERIES | UNEQUAL JUSTICE</a>
         </div>
 
@@ -390,7 +390,11 @@ state’s entire juvenile lifer population.</p><br><br>
     <p>Only 15 juvenile lifers have been resentenced to life without parole and 216 were
     resentenced to numbered terms. </p><br><br>
 
+    <p class="pa-county-title"><br>County-level approaches to resentencing</p>
 
+    <p class="pa-county-description">Click through different PA counties to see the total juvenile population and status of those cases.</p>
+
+    <p class="pa-county-credits">Map design: Ally Tobler, Capital News Service</p><br>
 
 </div>
 </div><!-- CLOSE main story -->
@@ -398,15 +402,66 @@ state’s entire juvenile lifer population.</p><br><br>
 <div class="leaflet-container"><!-- Leaflet map -->
   <!-- This is the div that displays the map -->
 <!-- This is the div that displays the map -->
-
+<div id="resentancing-data">
 <div class="row">
   <div class="col-lg-6">
     <div id="mapid"></div>
   </div>
 
   <div class="col-lg-6">
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="county_nam">PENNSYLVANIA</div>
+      </br>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="total"><span id="number"><strong>211</strong></span></br> total juvenile lifers</div>
+      </div>
+      <div class="col-md-6">
+        <div class="total_resentanced"><span id="number"><strong>33</strong></span></br> total resentenced</div>
+      </div>
+    </div><br>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="released"><span id="smallnumber"><strong>12</strong></span> <span class="highlight">released</span> since 2016 </div>
+      </div>
+      <div class="col-md-6">
+        <div class="resentanced_nonlife"><span id="smallnumber"><strong>9</strong></span> resentenced to <span class="highlight">non-life terms</span></div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="given_life"><span id="smallnumber"><strong>2</strong></span> given <span class="highlight">life without parole</span> again</div>
+      </div>
+      <div class="col-md-6">
+        <div class="waiting_resentance"><span id="smallnumber"><strong>7</strong></span> still waiting for their <span class="highlight">resentencing</span></div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="total_minority"><span id="percentage"><strong>81.5%</strong></span> are <span class="highlight">minorities</span><span class="asterisk">*</span></div>
+      </div>
+      <div class="col-md-6">
+        <div class="total_white"><span id="percentage"><strong>18.5%</strong></span> are <span class="highlight">white</span></div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="races"> *Minorities include those who are black, Hispanic or Asian.</div>
+      </div>
+    </div>
+
+
 <!-- This div shows the resentancing number depending on what county is clicked -->
-<div id="resentancing-data">
+<!-- <div id="resentancing-data">
   <div class="county_nam">Pennsylvania</div>
   <div class="total">Juvenile lifer population in 2016:  <strong style="color:#D9B269">521</strong></div>
   <div class="total_resentanced">Total resentenced since 2016: <strong style="color:#D9B269">441</strong></div>
@@ -414,8 +469,9 @@ state’s entire juvenile lifer population.</p><br><br>
   <div class="resentanced_nonlife">Total resentenced to non-life terms: <strong style="color:#D9B269">216</strong></div>
   <div class="given_life">Total resentenced to LWOP: <strong style="color:#D9B269">15</strong></div>
   <div class="waiting_resentance">Total pending resentencing: <strong style="color:#D9B269">77</strong></div>
-</div>
+</div> -->
 
+</div>
 </div>
 </div>
 </div><!-- CLOSE Leaflet map -->

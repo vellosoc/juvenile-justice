@@ -20,8 +20,10 @@
       integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
       crossorigin=""></script>
 
-    <link type="text/css" rel="stylesheet" href="style.css">
+    <link type="text/css" rel="stylesheet" href="css/style-pa.css">
 
+
+    <link href="https://fonts.googleapis.com/css?family=Antic+Didone|Muli:400,700&display=swap" rel="stylesheet">
 
       <!-- Jquery call -->
       <script
@@ -29,25 +31,83 @@
       			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       			  crossorigin="anonymous"></script>
 
+  <!-- bootstrap css -->
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 
 </head>
 
 <body>
 
-  <!-- This is the div that displays the map -->
-  <div id="mapid"></div>
+  <div class="container">
+        <!-- This div shows the resentencing number depending on what county is clicked -->
+    <div id="resentancing-data">
+
+      <div class="row">
+
+        <div class="col-md-7">
+          <div id="mapid"></div>
+        </div>
 
 
-  <!-- This div shows the resentancing number depending on what county is clicked -->
-  <div id="resentancing-data">
-    <div class="county_nam">PENNSYLVANIA</div>
-    <div class="total"><strong>211</strong> total juvenile lifers</div>
-    <div class="total_resentanced"><strong>33</strong> total resentanced</div>
-    <div class="released"><strong>12</strong> juvenile lifers have been released since 2016 </div>
-    <div class="resentanced_nonlife"><strong>9</strong> juvenile lifers have been resentenced to non-life terms</div>
-    <div class="given_life"><strong>2</strong> juvenile lifers have been given life without parole again</div>
-    <div class="waiting_resentance"><strong>7</strong> juvenile lifers are still waiting for their resentencing</div>
-  </div>
+        <div class="col-md-5">
+
+          <div class="row">
+            <div class="col-md-12">
+              <div class="county_nam">PENNSYLVANIA</div>
+            </br>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="total"><span id="number"><strong>211</strong></span></br> total juvenile lifers</div>
+            </div>
+            <div class="col-md-6">
+              <div class="total_resentanced"><span id="number"><strong>33</strong></span></br> total resentenced</div>
+            </div>
+            <hr>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="released"><span id="smallnumber"><strong>12</strong></span> <span class="highlight">released</span> since 2016 </div>
+            </div>
+            <div class="col-md-6">
+              <div class="resentanced_nonlife"><span id="smallnumber"><strong>9</strong></span> resentenced to <span class="highlight">non-life terms</span></div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="given_life"><span id="smallnumber"><strong>2</strong></span> given <span class="highlight">life without parole</span> again</div>
+            </div>
+            <div class="col-md-6">
+              <div class="waiting_resentance"><span id="smallnumber"><strong>7</strong></span> still waiting for their <span class="highlight">resentencing</span></div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="total_minority"><span id="percentage"><strong>81.5%</strong></span> are <span class="highlight">minorities</span><span class="asterisk">*</span></div>
+            </div>
+            <div class="col-md-6">
+              <div class="total_white"><span id="percentage"><strong>18.5%</strong></span> are <span class="highlight">white</span></div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+              <div class="races"> *Minorities include those who are black, Hispanic or Asian.</div>
+            </div>
+          </div>
+        </div>
+
+    </div>
+
+<p class="credits">Map design: Ally Tobler, Capital News Service</p>
 
 
 <!-- Call in both data sources for the map-->
@@ -61,7 +121,10 @@
 <!-- This is the script that builds and controls the map-->
 <script type="text/javascript" src="map-script.js"></script>
 
-
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 
 </body>

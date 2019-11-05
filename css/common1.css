@@ -131,10 +131,44 @@ h4{
     text-align: center;
   }
 
+  .pa-county-title{
+    font-family: 'Muli', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    border-top: 1px solid white;
+    width: 80%;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+  }
+
+.pa-county-description{
+  color: white;
+  font-size: 1em;
+  font-family: 'Muli', sans-serif;
+  width: 80%;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.pa-county-credits{
+  color: white;
+  font-family: 'Muli', sans-serif;
+  font-size: .8em;
+  font-style: italic;
+  width: 80%;
+  text-align: center;
+}
+
 .chart-title{
   font-family: 'Muli', sans-serif;
   font-size: 1.5em;
   color: white;
+}
+
+.graphic-container{
+  width: 100%;
+  background-color: black;
 }
 
 .chart-description{
@@ -153,7 +187,7 @@ h4{
 .chart-author{
     color: white;
     font-family: 'Muli', sans-serif;
-    font-size: .8em;
+    font-size: .9em;
 
 }
 
@@ -233,54 +267,161 @@ a{
   margin-top: 40vh;
 }
 
-#mapid {
-  height: 500px;width:600px;
-}
-
 .leaflet-container {
     background-color:black;
 }
 
-.county_nam{
-  font-family: 'Muli', sans-serif;
-  font-size: 3em;
-  color: white;
-  margin-bottom: 20px;
-  margin-top: 15%;
+
+#mapid {
+  height: 500px;
+  width: 100%;
 }
 
-.total_resentanced{
-  font-family: 'Muli', sans-serif;
-  font-size: 1.5em;
-  color: white;
+#resentancing-data {
+/**width: 50%;**/
+font-family: 'Antic Didone', serif;
+font-size: 18px;
+
+color: white;
 }
 
-.released{
-  font-family: 'Muli', sans-serif;
-  font-size: 1.5em;
-  color: white;
+#number {
+font-family: 'Muli', sans-serif;
+font-size: 60px;
+/**color: #3E3F3A;**/
+text-shadow: 0 0 5px #D9B269;
 }
 
-.resentanced_nonlife{
+#smallnumber {
   font-family: 'Muli', sans-serif;
-  font-size: 1.5em;
-  color: white;
+  font-size: 27px;
+
 }
 
-.given_life{
+#percentage {
+  font-size: 27px;
   font-family: 'Muli', sans-serif;
-  font-size: 1.5em;
-  color: white;
+  padding-top: 10px;
+  text-align: left;
+
 }
 
-.waiting_resentance{
-  font-family: 'Muli', sans-serif;
-  font-size: 1.5em;
-  color: white;
+hr {
+ /**margin-top: 0.5em;
+ margin-bottom: 0.5em;
+ margin-left: auto;
+ margin-right: auto;**/
+ width: 150px;
+ border: 5px solid white;
+border-radius: 5px;
 }
 
-.total{
+.highlight {
+  /**background-image: linear-gradient(-100deg, rgba(255, 255, 255, 0), #D9B269 85%, rgba(255, 255, 255, 0));**/
+
+background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #3E3F3A 50%);
+
+  /**text-decoration: underline;
+  text-underline-position: under right;
+  text-decoration-color: rgba(217, 178, 105, 100%);**/
+
+  /**border-bottom: 5px solid rgba(217, 178, 105, 0.5);
+  border-spacing: 1cm 2em;
+  position: sticky;**/
+
+
+
+  /**text-shadow:
+   2px 2px white,
+   2px -2px white,
+   -2px 2px white,
+   -2px -2px white;**/
+}
+
+.county_nam {
   font-family: 'Muli', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  font-weight: lighter;
+  padding: 5px;
+}
+
+.total {
+text-align: center;
+}
+
+.total_resentanced {
+text-align: center;
+font-family: 'Antic Didone', serif;
+
+}
+
+.released {
+font-family: 'Antic Didone', serif;
+line-height: 1.6;
+text-align: left;
+padding: 5px;
+}
+
+.resentanced_nonlife {
+font-family: 'Antic Didone', serif;
+line-height: 1.6;
+text-align: left;
+padding: 5px;
+}
+
+.given_life {
+font-family: 'Antic Didone', serif;
+line-height: 1.6;
+text-align: left;
+padding: 5px;
+}
+
+.waiting_resentance {
+font-family: 'Antic Didone', serif;
+line-height: 1.6;
+text-align: left;
+padding: 5px;
+}
+
+.total_minority {
+  text-align: left;
+  padding-top: 15px;
+  font-family: 'Antic Didone', serif;
+}
+
+.total_white {
+  text-align: left;
+padding-top: 15px;
+font-family: 'Antic Didone', serif;
+}
+.asterisk {
+  font-size: 30px;
   color: white;
-  font-size: 1.5em;
+  text-align: left;
+}
+
+.races {
+  font-size: 13px;
+  text-align: right;
+  color: white;
+  padding-top: 15px;
+  padding-right: 15px;
+
+  font-family: 'Antic Didone', serif;
+}
+
+.credits {
+  margin-top: 0;
+  font-size: 13px;
+  text-align: right;
+  color: white;
+  padding-right: 15px;
+  font-family: 'Antic Didone', serif;
+}
+
+@media(max-width:1100px){
+  #tophat{
+    font-size: .8em;
+  }
 }
