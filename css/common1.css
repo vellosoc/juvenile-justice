@@ -146,8 +146,17 @@ h4{
 .chart-source{
     color: white;
     font-family: 'Muli', sans-serif;
-    font-size: 1em;
+    font-size: .8em;
+    font-style: italic;
 }
+
+.chart-author{
+    color: white;
+    font-family: 'Muli', sans-serif;
+    font-size: .8em;
+
+}
+
 
 
 .c3-event-rect{
