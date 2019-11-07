@@ -11,6 +11,12 @@ properties: {
 //Create a variable called mymap that binds to the id "mapid" in html
 var mymap = L.map('mapid', { zoomControl: false }).setView([40.798511, -77.724825], 7);
 
+// disable drag and zoom handlers
+mymap.dragging.disable();
+mymap.touchZoom.disable();
+mymap.doubleClickZoom.disable();
+mymap.scrollWheelZoom.disable();
+
 //call mapbox map with my access token
 // L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
 //    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
