@@ -92,8 +92,42 @@ html {
   }
 
 .content{
-    margin-top: 25%;
+    margin-top: 40%;
   }
+
+  .author{
+    font-size: 18px;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .author span{
+      color: #D9B269;
+
+    }
+
+   .date{
+       font-size: 15px;
+       text-align: center;
+       font-family: 'Lora', serif;
+     }
+
+    .video-content{
+       width:70%;
+       margin:0 auto;
+       background-color: #3E3F3A;
+       padding:10px;
+     }
+
+     .video-caption{
+       font-family: 'Muli', sans-serif;
+       font-size: 1em;
+       margin-top:10px;
+       color:white;
+       text-align: center;
+       font-size: italic;
+     }
 
 h1{
     font-family: 'Antic Didone', serif;
@@ -126,9 +160,9 @@ h4{
 
 
   p{
-    font-family: 'Antic Didone', serif;
+    font-family: 'Lora', serif;
     font-size: 1.25em;
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
   }
 

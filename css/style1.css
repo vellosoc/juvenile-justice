@@ -27,7 +27,7 @@ body{
 .hero-container {
   position: relative;
   text-align: center;
-  background-image: url("../images/inside-prison-dark.png");
+  background-image: url("../images/inside-prison-dark.png"); 
   height:100vh;
   background-repeat: no-repeat;
 }
@@ -123,7 +123,7 @@ h4{
   font-family: 'Special Elite', cursive;
   letter-spacing: .2em;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   width:80;
@@ -163,8 +163,8 @@ h4{
     color:white;
     font-family: 'Muli', sans-serif;
     letter-spacing: normal;
-    font-size: 1.3em;
-    width:70%;
+    font-size: 1.2em;
+    width:80%;
     margin: 0 auto;
     text-align: center;
     display:none;
