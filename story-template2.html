@@ -181,7 +181,7 @@ cases. It wasn’t until June, 2018 that Chief Justice Stephen Markman, writing 
 
 <div class="border"></div><br>
 
-<p class="state"><img src="images/florida.png" alt="Smiley face" width="150" height="137" align="middle">&nbsp FLORIDA</p><br><br>
+<p class="state"><img src="images/florida1.png" alt="Smiley face" width="150" height="137" align="middle">&nbsp FLORIDA</p><br><br>
 
 <p>For juvenile lifers in Florida, resentencing is likely only after a long imprisonment. State law and Florida Supreme Court decisions have followed the state’s “tough on crime” pattern.</p><br><br>
 
@@ -242,26 +242,33 @@ without parole in the case of first-degree murder.</p><br><br>
                ]
              },
              color: {
-               pattern: ['#D9B269', '#689AD9', '#ee6a4b', '#60c4b2', '#973895']
+               pattern: ['#D9B269', '#78A6DD', '#ee6a4b', '#60c4b2', '#973895']
              }
            });
 
            var chart2 = c3.generate({
               bindto: '#age-released',
                data: {
-
                  columns: [
-                   ['x', '25yrs-40yrs', '25-29yrs-60yrs', '30-39yrs-60yrs', '40yrs-60yrs', '40yrs-75yrs', 'Life'],
-                  ['x', 1, 65, 70, 29, 1, 15]
+                  ['# of juvenile lifers', 1, 65, 70, 29, 1, 15]
                  ],
                    type: 'bar'
                },
 
+               axis: {
+                  x: {
+                    type: 'category',
+                    categories: ['25yrs-40yrs', '25-29yrs-60yrs', '30-39yrs-60yrs', '40yrs-60yrs', '40yrs-75yrs', 'Life']
+                  }
+                },
+
 
                color: {
-                 pattern: ['#FFDA94', '#D9B168', '#27548C', '#689AD9', '#973895']
+                 pattern: ['#78A6DD', '#D9B168', '#27548C', '#689AD9', '#973895']
                }
            });
+
+
 
            var chart3 = c3.generate({
              bindto: '#incarceration2',
@@ -274,7 +281,7 @@ without parole in the case of first-degree murder.</p><br><br>
                ]
              },
              color: {
-               pattern: ['#D9B269', '#689AD9', '#ee6a4b', '#60c4b2', '#973895']
+               pattern: ['#D9B269', '#78A6DD', '#ee6a4b', '#60c4b2', '#973895']
              }
            });
 

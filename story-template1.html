@@ -97,7 +97,7 @@
       <div id="tophat">
         <div class="row">
           <div class="col  one">
-            <a href=""><i class="fa fa-home" style="color: white; font-size: 1.2em;"></i>&nbsp SERIES | UNEQUAL JUSTICE</a>
+            <a href=""><i class="fa fa-home" style="color: white; font-size: 1.2em;"></i>&nbsp <span class="break">SERIES | UNEQUAL JUSTICE</span></a>
         </div>
 
         <div class="col">
@@ -404,25 +404,42 @@ state’s entire juvenile lifer population.</p><br><br>
 <!-- This is the div that displays the map -->
 <div id="resentancing-data">
 <div class="row">
-  <div class="col-lg-6">
+  <div class="col-lg-6 col-md-12 col-sm-12">
     <div id="mapid"></div>
   </div>
 
-  <div class="col-lg-6">
+  <!--<div class="hide-until-mobile">
 
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-sm-12">
         <div class="county_nam">PENNSYLVANIA</div>
       </br>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-md-6">
-        <div class="total"><span id="number"><strong>211</strong></span></br> total juvenile lifers</div>
+      <ul>
+        <li>
+      </ul>
+    </div>
+
+  </div> -->
+
+  <div class="col-lg-6 col-md-12 col-sm-12">
+
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <div class="county_nam">PENNSYLVANIA</div>
+
       </div>
-      <div class="col-md-6">
-        <div class="total_resentanced"><span id="number"><strong>33</strong></span></br> total resentenced</div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <div class="total"><span id="number"><strong>211</strong></span><br> total juvenile lifers</div>
+      </div>
+      <div class="col">
+        <div class="total_resentanced"><span id="number"><strong>33</strong></span><br> total resentenced</div>
       </div>
     </div><br>
 
@@ -442,7 +459,7 @@ state’s entire juvenile lifer population.</p><br><br>
       <div class="col-md-6">
         <div class="waiting_resentance"><span id="smallnumber"><strong>7</strong></span> still waiting for their <span class="highlight">resentencing</span></div>
       </div>
-    </div>
+    </div><br>
 
     <div class="row">
       <div class="col-md-6">
@@ -555,7 +572,7 @@ state’s entire juvenile lifer population.</p><br><br>
 
 
                color: {
-                 pattern: ['#FFDA94', '#D9B168', '#27548C', '#689AD9', '#973895']
+                 pattern: ['#FFDA94', '#D9B168', '#27548C', '#78A6DD', '#973895']
                }
            });
 
