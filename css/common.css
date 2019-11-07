@@ -176,3 +176,15 @@ h4{
     text-decoration: none;
     color: #FFDA94;
   }
+
+  @media only screen and (max-width: 600px) {
+    .hide{
+      display: none;
+    }
+  }
+
+  @media(max-width:1024px){
+    #tophat{
+      font-size:.9em;
+    }
+  }
