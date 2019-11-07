@@ -82,7 +82,7 @@ function onEachFeature(feature, layer) {
   layer.on('click', function(e) {
     $(".county_nam").html(feature.properties.county_nam + " COUNTY");
     $(".total").html("<span id=\"number\"><strong>" + feature.properties.total + "</strong></span></br> total juvenile lifers");
-    $(".total_resentanced").html("<span id=\"number\"><strong>" + feature.properties.total_resentanced + "</strong></span></br> total resentanced");
+    $(".total_resentanced").html("<span id=\"number\"><strong>" + feature.properties.total_resentanced + "</strong></span></br> total resentenced");
     $(".released").html("<span id=\"smallnumber\"><strong>" + feature.properties.released + "</strong></span> <span class=\"highlight\">released</span> since 2016");
     $(".resentanced_nonlife").html("<span id=\"smallnumber\"><strong>" + feature.properties.resentanced_nonlife + "</strong></span>  resentenced to <span class=\"highlight\">non-life terms</span>");
     $(".given_life").html("<span id=\"smallnumber\"><strong>" + feature.properties.given_life + "</strong></span> given <span class=\"highlight\">life without parole</span> again");
