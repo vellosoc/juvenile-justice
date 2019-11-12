@@ -458,6 +458,26 @@ h1{
   #tophat{
     font-size: .5em;
   }
+
+  p{
+    width: 70%;
+  }
+
+  .incarceration-graph{
+    width: 70%;
+  }
+
+  .more{
+    width: 70%;
+  }
+
+  .about{
+    width: 60%;
+  }
+
+  .final-credits{
+    width: 60%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -477,6 +497,23 @@ h1{
 
   p{
     font-size: 1em;
+    width: 80%;
+  }
+
+  .incarceration-graph{
+    width: 80%;
+  }
+
+  .about{
+    width: 70%;
+  }
+
+  .final-credits{
+    width: 70%;
+  }
+
+  .more{
+    width: 80%;
   }
 
   .date{
