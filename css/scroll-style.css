@@ -1,15 +1,5 @@
 /* scrollama */
 
-.container-fluid{
-  background-color: black;
-}
-
-.scrolling-text{
-  font-family: 'Muli', sans-serif;
-  font-size: 1.2em;
-  color: white;
-  width: 100%;
-}
 
 .scroll-graphic {
   position: -webkit-sticky;
@@ -19,7 +9,7 @@
 }
 
 .step {
-  padding-top: 45%;
+  padding: 2rem;
   height: 50vh;
 }
 
@@ -28,18 +18,27 @@
   padding-bottom: 15px;
 }
 
+.col-text{
+background-color: black;
+}
 
 .col-graphic{
   position: -webkit-sticky;
   position: sticky;
   bottom: 0;
   background-color: black;
+  text-align: center;
+}
+
+.scrolling-text{
+  font-family: 'Muli', sans-serif;
+  font-size: 1.25em;
+  color: white;
 }
 
 
 .img-fluid-trees {
-    margin-top: 5%;
-    margin-left: 30%;
+    max-height:50vh !important;
   }
 
 /* Large devices (desktops, 992px and up) */

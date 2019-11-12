@@ -452,8 +452,6 @@ h1{
   margin-top: 0;
 }
 
-
-
 @media(max-width:1024px){
   #tophat{
     font-size: .5em;
@@ -672,3 +670,59 @@ h1{
     display: none;
   }
 }
+
+
+    /* scrollama */
+
+    .scroll-graphic {
+      position: -webkit-sticky;
+      position: sticky;
+      top:0;
+      height: 50vh;
+    }
+
+    .step {
+      padding: 2rem;
+      height: 50vh;
+    }
+
+    .scroll-graphic-tab{
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+
+
+    .col-graphic{
+      position: -webkit-sticky;
+      position: sticky;
+      bottom: 0;
+      background-color: white;
+    }
+
+
+
+
+
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+
+      .scroll-graphic {
+        position: -webkit-sticky;
+        position: sticky;
+        top:0;
+        height: 100vh;
+      }
+
+      .step {
+        height: 100vh;
+      }
+
+      .col-graphic{
+        position: relative;
+      }
+
+      .scroll-text{
+        /* height: 100vh;
+        overflow: hidden; */
+      }
+    }
