@@ -1,0 +1,23 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.leftside, .rightside{
+  height: 50vh;
+  width: 100%;
+}
+
+.leftside{
+  background: red;
+}
+
+.rightside{
+  background: blue;
+}
+
+
+@media screen and (min-width: 768px){
+  .leftside, .rightside{
+    height: 100vh;
+  }
+}

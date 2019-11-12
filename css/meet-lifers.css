@@ -1,0 +1,510 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#tophat {
+  color:white;
+  font-family: 'Muli', sans-serif;
+  text-align:center;
+  font-size:1.1em;
+  line-height: normal;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+}
+
+.col.one{
+  text-align: left;
+  margin-left: 10px;
+  font-size: .85em;
+  font-family: 'Special Elite', cursive;
+  color: white;
+}
+
+.col.three{
+  text-align: right;
+  margin-right: 10px;
+}
+
+
+.hero-container {
+  height: 100vh;
+    margin-bottom: 0;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+    .video-content{
+       width:70%;
+       margin:0 auto;
+       background-color: #3E3F3A;
+       padding:10px;
+     }
+
+     .video-caption{
+       font-family: 'Muli', sans-serif;
+       font-size: 1em;
+       margin-top:10px;
+       color:white;
+       text-align: center;
+       font-size: italic;
+     }
+.header-title{
+  text-align: center;
+  width: 30%;
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translate(-10%, -50%);
+}
+
+.article-title{
+  font-family: 'Antic Didone', serif;
+  font-size: 4em;
+  color: white;
+}
+
+.article-desc{
+  font-family: 'Muli', sans-serif;
+  font-size: 1.2em;
+  color: white;
+}
+
+.article-author{
+  font-family: 'Antic Didone', serif;
+  font-size: 1em;
+  color: white;
+}
+
+.container {
+  width:100%;
+}
+
+.story-container {
+  width: 100%;
+  background-image: url("../images/black_paper.png");
+  margin-top: 0;
+}
+
+.cover-img {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+
+h1{
+    font-family: 'Muli', sans-serif;
+    font-size: 1.25em;
+    color: white;
+    text-align: center;
+  }
+
+h2{
+  font-family: 'Antic Didone', serif;
+    font-size: 4em;
+    color: white;
+    text-align: center;
+  }
+
+h3{
+    font-family: 'Muli', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+
+h4{
+    font-family: 'Antic Didone', serif;
+    font-size: 1.25em;
+    color: white;
+    text-align: center;
+  }
+
+  p{
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 1.5em;
+    color:white;
+  }
+
+  .border{
+    width: 30%;
+    margin: 0 auto;
+    border-top: 1px solid white;
+  }
+
+  .state{
+    font-family: 'Muli', sans-serif;
+    font-size: 2em;
+    color: white;
+    text-transform: uppercase;
+    text-align: left;
+    text-decoration: underline;
+  }
+
+  .incarceration-graph{
+    width: 60%;
+    margin: 0 auto;
+    font-family: 'Muli', sans-serif;
+  }
+
+  .author{
+    font-size: 18px;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  .pa-county-title{
+    font-family: 'Muli', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    border-top: 1px solid white;
+    width: 80%;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+  }
+
+.pa-county-description{
+  color: white;
+  font-size: 1em;
+  font-family: 'Muli', sans-serif;
+  width: 80%;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.pa-county-author{
+  color: white;
+  font-size: 1em;
+  font-family: 'Muli', sans-serif;
+  width: 80%;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.pa-county-credits{
+  color: white;
+  font-family: 'Muli', sans-serif;
+  font-size: .8em;
+  font-style: italic;
+  width: 80%;
+  text-align: left;
+}
+
+.chart-title{
+  font-family: 'Muli', sans-serif;
+  font-size: 1.5em;
+  color: white;
+}
+
+.chart-description{
+    color: white;
+    font-size: 1em;
+    font-family: 'Muli', sans-serif;
+}
+
+.chart-source{
+    color: white;
+    font-family: 'Muli', sans-serif;
+    font-size: .8em;
+    font-style: italic;
+}
+
+.chart-author{
+    color: white;
+    font-family: 'Muli', sans-serif;
+    font-size: .9em;
+
+}
+
+
+
+.c3-event-rect{
+  color: black !important;
+}
+  .c3-axis-y text {
+   fill: white;
+   font-size:12px;
+}
+.c3-axis-x text {
+    font-size:12px;
+    fill:white;
+}
+
+.c3-legend-item text {
+  fill: white;
+}
+
+.c3 path, .c3 line {
+  stroke: white;
+}
+
+.tick text{
+  color: black;
+}
+
+.author span{
+    color: #D9B269;
+
+  }
+
+
+
+ .date{
+     font-size: 15px;
+     text-align: left;
+     font-family: 'Lora', serif;
+   }
+
+  .col.one a{
+    color: white !important;
+     text-decoration: none !important;;
+
+  }
+
+  .col.one a:hover{
+    color: white !important;
+     text-decoration: none !important;;
+
+  }
+
+a{
+     color: #8A26CC ;
+     text-decoration: underline;
+
+  }
+
+  a:hover{
+    text-decoration: none;
+    color: #AD30FF;
+  }
+
+
+  .data-viz{
+  /*background-image: url("../images/black_paper.png");*/
+  background-color: black;
+  height: 100vh;
+}
+
+.data-viz img{
+  margin-left: 25%;
+  margin-top: 20vh;
+}
+
+.data-text{
+  margin-top: 40vh;
+}
+
+.leaflet-container {
+    background-color:black;
+}
+
+
+#mapid {
+  height: 500px;
+  width: 100%;
+}
+
+#resentancing-data {
+/**width: 50%;**/
+font-family: 'Antic Didone', serif;
+font-size: 18px;
+
+color: white;
+}
+
+#number {
+font-family: 'Muli', sans-serif;
+font-size: 60px;
+/**color: #3E3F3A;**/
+text-shadow: 0 0 5px #D9B269;
+}
+
+#smallnumber {
+  font-family: 'Muli', sans-serif;
+  font-size: 27px;
+
+}
+
+#percentage {
+  font-size: 27px;
+  font-family: 'Muli', sans-serif;
+  padding-top: 10px;
+  text-align: left;
+
+}
+
+
+.highlight {
+  /**background-image: linear-gradient(-100deg, rgba(255, 255, 255, 0), #D9B269 85%, rgba(255, 255, 255, 0));**/
+
+background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #3E3F3A 50%);
+
+  /**text-decoration: underline;
+  text-underline-position: under right;
+  text-decoration-color: rgba(217, 178, 105, 100%);**/
+
+  /**border-bottom: 5px solid rgba(217, 178, 105, 0.5);
+  border-spacing: 1cm 2em;
+  position: sticky;**/
+
+
+
+  /**text-shadow:
+   2px 2px white,
+   2px -2px white,
+   -2px 2px white,
+   -2px -2px white;**/
+}
+
+.county_nam {
+  font-family: 'Muli', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  font-weight: lighter;
+  padding: 5px;
+}
+
+.total {
+text-align: center;
+}
+
+.total_resentanced {
+text-align: center;
+font-family: 'Antic Didone', serif;
+
+}
+
+.released {
+font-family: 'Antic Didone', serif;
+line-height: 1.6;
+text-align: left;
+padding: 5px;
+}
+
+.resentanced_nonlife {
+font-family: 'Antic Didone', serif;
+line-height: 1.6;
+text-align: left;
+padding: 5px;
+}
+
+.given_life {
+font-family: 'Antic Didone', serif;
+line-height: 1.6;
+text-align: left;
+padding: 5px;
+}
+
+.waiting_resentance {
+font-family: 'Antic Didone', serif;
+line-height: 1.6;
+text-align: left;
+padding: 5px;
+}
+
+.total_minority {
+  text-align: left;
+  padding-top: 15px;
+  font-family: 'Antic Didone', serif;
+}
+
+.total_white {
+  text-align: left;
+padding-top: 15px;
+font-family: 'Antic Didone', serif;
+}
+.asterisk {
+  font-size: 30px;
+  color: white;
+  text-align: left;
+}
+
+.races {
+  font-size: 13px;
+  text-align: right;
+  color: white;
+  padding-top: 15px;
+  padding-right: 15px;
+
+  font-family: 'Antic Didone', serif;
+}
+
+.credits {
+  margin-top: 0;
+  font-size: 13px;
+  text-align: right;
+  color: white;
+  padding-right: 15px;
+  font-family: 'Antic Didone', serif;
+}
+
+@media(max-width:1024px){
+  #tophat{
+    font-size:.9em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hide{
+    display: none;
+  }
+  .article-title{
+    font-size: 2.5em;
+
+    }
+
+  .article-desc{
+    font-size: .9em;
+  }
+
+  p{
+    font-size: 1em;
+  }
+
+  .date{
+    font-size: .8em;
+  }
+
+  .author{
+    font-size: 1em;
+  }
+
+    .chart-title{
+      font-size: 1.2em;
+      padding-bottom: 15px;
+    }
+
+    .chart-description{
+      font-size: .9em;
+    }
+
+    .chart-author{
+      font-size: .7em;
+    }
+
+    .chart-source{
+      font-size: .7em;
+    }
+    .state{
+      font-size: 1.5em;
+    }
+
+
+}

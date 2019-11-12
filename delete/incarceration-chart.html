@@ -1,0 +1,85 @@
+<!-- Bar chart including:
+  cutom title for tool tip,
+  comma and $ on tool tip and y-axis,
+  custom colors
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>
+    	Capital News Service
+    </title>
+
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Poppins:300,400,500,600,700&amp;subset=latin-ext" rel="stylesheet">
+
+    <!-- Load c3.css -->
+  <link href="css/c3.css" rel="stylesheet">
+
+  <!-- Load our css -->
+  <link href="css/graphics-css.css" rel="stylesheet">
+
+	<!-- Load d3.js and c3.js -->
+	<script src="js/d3.min.js" charset="utf-8"></script>
+	<script src="js/c3.min.js"></script>
+
+  </head>
+
+  <body>
+   	<div id="container">
+   		<h1 class="highcharts-title">Incarceration rates for juvenile lifers in Pennsylvania</h1>
+
+   		<text class="highcharts-subtitle" y="60">
+   			<tspan>By Camila Velloso</tspan>
+   			<!-- ^^ PUT YOUR NAME HERE, TAKE CREDIT FOR YOUR COOL WORK ^^ -->
+   			<tspan onclick="location.href=&quot;http://cnsmaryland.org&quot;"> | CAPITAL NEWS SERVICE</tspan>
+   			<br>
+        <p>The number of juveniles sentenced to life without parole spiked in the '90s, amid the tough-on-crime rhetoric and fears of "superpredators."</p>
+      </text>
+   		<div id="chart"></div>
+   		<div id="source"><text><a href="https://preparedness.health.maryland.gov/Pages/Home.aspx"><tspan>Source: Pennsylvania Department of Corrections </tspan></a></text></div>
+   		<!-- ^^ PUT YOUR SOURCE HERE AND LINK IT^^ -->
+   	</div>
+   	<script type="text/javascript">
+
+
+
+        var chart = c3.generate({
+            data: {	x: 'x',
+                columns: [
+                	['x', 1950, 1960, 1970, 1980, 1990, 2000,2010],
+                    ['data1', 1, 1, 83, 109, 194, 106, 27],
+                ],
+
+
+				names: {
+            data1: 'Decade',
+
+        },
+
+
+
+                type: 'line'
+            },
+            color: {
+                pattern: ['#D9B269']
+            },
+            bar: {
+                width: {
+                    ratio: 0.65 // this makes bar width 50% of length between ticks
+                }
+                // or
+                //width: 100 // this makes bar width 100px
+            }
+        });
+
+
+
+
+ 	 </script>
+  </body>
+
+</html>

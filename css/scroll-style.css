@@ -6,7 +6,7 @@
 
 .scrolling-text{
   font-family: 'Muli', sans-serif;
-  font-size: 1.1em;
+  font-size: 1.2em;
   color: white;
   width: 100%;
 }
@@ -21,7 +21,6 @@
 .step {
   padding-top: 45%;
   height: 50vh;
-  margin-right: 20%;
 }
 
 .scroll-graphic-tab{
@@ -40,7 +39,7 @@
 
 .img-fluid-trees {
     margin-top: 5%;
-    margin-left: 5%;
+    margin-left: 30%;
   }
 
 /* Large devices (desktops, 992px and up) */
