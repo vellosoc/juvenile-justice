@@ -451,6 +451,10 @@ a{
   #tophat{
     font-size:.9em;
   }
+
+  p{
+    width: 70%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -466,9 +470,27 @@ a{
     font-size: .9em;
   }
 
-  p{
-    font-size: 1em;
-  }
+
+    p{
+      font-size: 1.1em;
+      width: 80%;
+    }
+
+    .incarceration-graph{
+      width: 80%;
+    }
+
+    .about{
+      width: 70%;
+    }
+
+    .final-credits{
+      width: 70%;
+    }
+
+    .more{
+      width: 80%;
+    }
 
   .date{
     font-size: .8em;
