@@ -94,7 +94,15 @@
 <body>
   <!-- START Hero Container -->
     <div class="hero-container">
-      <div id="tophat">
+
+      <div class="navbar">
+          <div class="col-xs-2 pull-right" id="home"><i class="fa fa-home"></i>&nbsp Home</div>
+          <div class="col-xs-8" id="topbar"> Howard Center for Investigative Journalism | CNS | PBS Newshour
+          </div>
+          <div class="col-xs-2 pull-left" id="social-icons"><i class="fa">&#xf099;</i> &nbsp <i class="fa">&#xf09a;</i></div>
+      </div>
+
+    <!--  <div id="tophat">
         <div class="row">
           <div class="col  one">
             <a href="index.html"><i class="fa fa-home" style="color: white; font-size: 1.2em;"></i>&nbsp <span class="hide">SERIES | UNEQUAL JUSTICE</span></a>
@@ -105,13 +113,13 @@
       </div>
 
       <div class="col three" style="color: white; font-size: 1.2em;">
-        <!-- <i class="fa fa-twitter"></i>&nbsp
-        <i class="fa fa-facebook"></i> -->
+        <i class="fa fa-twitter"></i>&nbsp
+        <i class="fa fa-facebook"></i>
     </div>
 
         </div>
 
-      </div>
+      </div> -->
 
       <div class="cover-img relative-img" style="background-image: url('images/main-img.jpg')"></div>
       <div class="centered">
@@ -129,7 +137,7 @@
 <div class="story-container">
   <a name="story"><div class="container"></a><br><br>
 
-    <p style="text-align: center;"><i class="fab fa-facebook-f"></i> &nbsp <i class="fab fa-twitter-square"></i></p>
+  <!--  <p style="text-align: center;"><i class="fab fa-facebook-f"></i> &nbsp <i class="fab fa-twitter-square"></i></p>-->
 
 <p class="author">By <span>CAMILA VELLOSO</span></p>
 
@@ -563,6 +571,18 @@ state’s entire juvenile lifer population.</p><br><br>
 </div>
 
 <!-- c3 script-->
+
+
+<script>
+    $(window).scroll(function() {
+      if ($(this).scrollTop() > 0) {
+        $('#topbar').fadeOut();
+      } else {
+        $('#topbar').fadeIn();
+      }
+    });
+</script>
+
    <script type="text/javascript">
    //CHART 1
 

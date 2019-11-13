@@ -10,6 +10,24 @@ body{
 
 }
 
+.navbar{
+  background-color:rgba(0, 0, 0, 0.5);
+
+}
+
+
+#topbar{
+  font-family: 'Antic Didone', serif;
+  font-size: 1.125em;
+  color: white;
+  padding-top: 5px;
+  text-align: center;
+  margin: 0 auto;
+  text-shadow: 0.5px 0.5px #D9B269;
+}
+
+
+
 /*body{
   background-color: #191617;
   color: white;
