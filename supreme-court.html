@@ -94,7 +94,15 @@
 <body>
   <!-- START Hero Container -->
     <div class="hero-container">
-      <div id="tophat">
+
+      <div class="navbar">
+          <div class="col-xs-2 pull-right" id="home"><a href="index.html" style="color: white; text-decoration: none;"><i class="fa fa-home"></i>&nbsp <span class="hide-on-mobile">Home<span></a></div>
+          <div class="col-xs-8" id="topbar"> Howard Center for Investigative Journalism | CNS | PBS Newshour
+          </div>
+          <div class="col-xs-2 pull-left" id="social-icons"><i class="fa">&#xf099;</i> &nbsp <i class="fa">&#xf09a;</i></div>
+      </div>
+
+    <!--  <div id="tophat">
         <div class="row">
           <div class="col  one">
             <a href=""><i class="fa fa-home" style="color: white; font-size: 1.2em;"></i>&nbsp <span class="hide">SERIES | UNEQUAL JUSTICE</span></a>
@@ -105,13 +113,13 @@
       </div>
 
       <div class="col three" style="color: white; font-size: 1.2em;">
-        <!-- <i class="fa fa-twitter"></i>&nbsp
-        <i class="fa fa-facebook"></i> -->
+     <i class="fa fa-twitter"></i>&nbsp
+        <i class="fa fa-facebook"></i>
     </div>
 
         </div>
 
-      </div>
+      </div> -->
 
       <div class="cover-img relative-img" style="background-image: url('images/supreme-court-alt.jpg')"></div>
       <div class="centered">
@@ -260,7 +268,16 @@
 </div>
 
 
-
+<!-- Branding disappears on scroll-->
+<script>
+    $(window).scroll(function() {
+      if ($(this).scrollTop() > 0) {
+        $('#topbar').fadeOut();
+      } else {
+        $('#topbar').fadeIn();
+      }
+    });
+</script>
 
 
 </body>

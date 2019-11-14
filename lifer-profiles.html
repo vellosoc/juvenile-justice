@@ -52,7 +52,7 @@
 
 
     <!-- our CSS  -->
-    <link rel="stylesheet" href="css/meet-lifers.css">
+    <link rel="stylesheet" href="css/lifer-profiles.css">
 
     <!-- Required for sidescroll -->
     <link rel="stylesheet" href="css/scroll-style.css">
@@ -94,7 +94,16 @@
 <body>
   <!-- START Hero Container -->
     <div class="hero-container">
-      <div id="tophat">
+
+      <div class="navbar">
+          <div class="col-xs-2 pull-right" id="home"><a href="index.html" style="color: white; text-decoration: none;"><i class="fa fa-home"></i>&nbsp <span class="hide-on-mobile">Home<span></a></div>
+          <div class="col-xs-8" id="topbar"> Howard Center for Investigative Journalism | CNS | PBS Newshour
+          </div>
+          <div class="col-xs-2 pull-left" id="social-icons"><i class="fa">&#xf099;</i> &nbsp <i class="fa">&#xf09a;</i></div>
+      </div>
+
+
+    <!--  <div id="tophat">
         <div class="row">
           <div class="col  one">
             <a href=""><i class="fa fa-home" style="color: white; font-size: 1.2em;"></i>&nbsp <span class="hide">SERIES | UNEQUAL JUSTICE</span></a>
@@ -105,13 +114,13 @@
       </div>
 
       <div class="col three" style="color: white; font-size: 1.2em;">
-        <!-- <i class="fa fa-twitter"></i>&nbsp
-        <i class="fa fa-facebook"></i> -->
+         <i class="fa fa-twitter"></i>&nbsp
+        <i class="fa fa-facebook"></i>
     </div>
 
         </div>
 
-      </div>
+      </div> -->
 
       <div class="cover-img relative-img" style="background-image: url('images/juvies.jpg')">
         <div class="header-title">
@@ -252,6 +261,17 @@ Gov. Jerry Brown took action within months of the U.S. Supreme Court’s 2012 ba
 
 </div>
 </div>
+
+<!-- Branding disappears on scroll-->
+<script>
+    $(window).scroll(function() {
+      if ($(this).scrollTop() > 0) {
+        $('#topbar').fadeOut();
+      } else {
+        $('#topbar').fadeIn();
+      }
+    });
+</script>
 
 <!-- c3 script-->
    <script type="text/javascript">

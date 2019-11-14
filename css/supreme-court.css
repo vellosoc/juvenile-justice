@@ -3,6 +3,33 @@ html {
 }
 
 
+.navbar{
+  background-color:rgba(0, 0, 0, 0.5);
+  position: fixed;
+  width: 100%;
+}
+
+
+#topbar{
+  font-family: 'Antic Didone', serif;
+  font-size: 1.125em;
+  color: white;
+  padding-top: 5px;
+  text-align: center;
+}
+
+#home{
+  font-family: 'Antic Didone', serif;
+  font-size: 1.1em;
+  color: white;
+}
+
+#social-icons{
+  text-align: left !important;
+  color: white;
+  font-size: 1.2em;
+}
+
 #tophat {
   color:white;
   font-family: 'Muli', sans-serif;
