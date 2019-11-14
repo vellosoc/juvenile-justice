@@ -503,8 +503,8 @@ var data2 =
    "PHILADELPHIA": {
       "total": 304,
       "total_resentanced": 275,
-      "released": 170,
-      "resentanced_nonlife": 101,
+      "released": 171,
+      "resentanced_nonlife": 100,
       "given_life": 4,
       "waiting_resentance": 27,
       "total_minority": 94.7,
