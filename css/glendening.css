@@ -200,6 +200,9 @@ html {
 
 }
 
+.chart .dw-chart-header h1{
+  font-family: 'Muli', sans-serif;
+}
 
 
 .c3-event-rect{
