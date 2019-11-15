@@ -516,6 +516,10 @@ font-family: 'Antic Didone', serif;
   #social-icons{
     font-size: .8em;
   }
+
+  .hide-on-mobile{
+    display: none;
+  }
   
   #tophat{
     font-size:.9em;

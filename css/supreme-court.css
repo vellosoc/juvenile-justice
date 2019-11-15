@@ -635,6 +635,10 @@ h1{
     font-size: .8em;
   }
   
+  .hide-on-mobile{
+    display: none;
+  }
+
   #tophat{
     font-size: .5em;
   }

@@ -516,7 +516,11 @@ h1{
     #social-icons{
       font-size: .8em;
     }
-    
+
+    .hide-on-mobile{
+      display: none;
+    }
+
   .article-title{
     font-size: 2.5em;
 

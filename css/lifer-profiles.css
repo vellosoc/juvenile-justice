@@ -518,6 +518,10 @@ font-family: 'Antic Didone', serif;
     #social-icons{
       font-size: .8em;
     }
+
+    .hide-on-mobile{
+      display: none;
+    }
     
   .hide{
     display: none;
