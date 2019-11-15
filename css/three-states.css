@@ -476,6 +476,19 @@ a{
 
 
 @media(max-width:1024px){
+
+  #topbar{
+    font-size: .8em;
+  }
+
+  #home{
+    font-size: .8em;
+  }
+
+  #social-icons{
+    font-size: .8em;
+  }
+
   #tophat{
     font-size:.9em;
   }
@@ -486,6 +499,19 @@ a{
 }
 
 @media only screen and (max-width: 600px) {
+
+  #topbar{
+    font-size: .6em;
+  }
+
+  #home{
+    font-size: .8em;
+  }
+
+  #social-icons{
+    font-size: .8em;
+  }
+  
   .hide{
     display: none;
   }
