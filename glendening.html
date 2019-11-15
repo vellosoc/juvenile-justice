@@ -160,6 +160,18 @@ defendant was sentenced. Yet in Maryland, some 300 juveniles are held in a priso
 
 <p>Maryland is one of only three states that requires a governor’s signature to grant parole. This system functioned until the 1990s, when heightening crime rates spurred “tough on crime” policies and public demonization of prisoners. Crime and punishment became a hot issue in Maryland in 1993, when “model inmate” Rodney Stokes killed his former girlfriend and himself while on work release, the last step before parole. </p><br><br>
 
+<!-- first graphic container-->
+<div class="incarceration-graph"><br>
+    <div class="graphic-container">
+      <div class="chart-title"><b>Racial makeup of juvenile lifers in Maryland</b></div>
+      <div class="chart-description">76.6% of incarcerated juvenile lifers in Maryland are black and 14.1% are white. </div><br>
+      <div class="chart-author">By CAMILA VELLOSO</div><br>
+    </div>
+    <div id="race"></div><br>
+    <div class="chart-source">Source: Maryland Department of Public Safety and Correctional Services Recruitment</div><br>
+  </div><br><br>  <!-- END first graphic container-->
+
+
 <p>The issue became the center of the gubernatorial elections in 1994. In an effort to better low approval ratings and address the crime issue, new Democratic governor Parris
 Glendening announced his “life means life” policy in his first year in office. It meant he would never sign parole for lifers. All Maryland governors followed suit until 2019, when current Gov. Larry Hogan paroled a handful of lifers. </p><br><br>
 
@@ -168,29 +180,6 @@ opportunity for parole. The Supreme Court has said that juveniles must have a �
 granted by governors over the years meet this standard. But advocates say those opportunities are more like winning the lottery than earning parole.</p><br><br>
 
 <p>Glendening has since renounced his “life means life” decision. He’s said repeatedly in public that it was wrong and should be changed legislatively in a potential bill that would completely remove the governor from the parole process. Now, the issue is facing more pressure from a 2016 ACLU lawsuit suing Hogan for denying juvenile lifers a meaningful opportunity for release. The case remains in court proceedings and Maryland’s juvenile lifers remain in prison, waiting.</p><br><br>
-
-<!-- first graphic container-->
-<div class="incarceration-graph"><br>
-    <div class="graphic-container">
-      <div class="chart-title"><b>Incarceration rates for juvenile lifers in Pennsylvania</b></div>
-      <div class="chart-description">The number of juveniles sentenced to life without parole spiked in the '90s, a consequence of tough-on-crime policies and growing fears of "superpredators."</div><br>
-      <div class="chart-author">By CAMILA VELLOSO</div><br>
-    </div>
-    <div id="incarceration"></div><br>
-    <div class="chart-source">Source: Pennsylvania Department of Corrections</div><br>
-  </div><br><br>  <!-- END first graphic container-->
-
-
-<!-- second graphic container-->
-<div class="incarceration-graph"><br>
-    <div class="graphic-container">
-      <div class="chart-title"><b>Age of juvenile lifers at release</b></div>
-      <div class="chart-description">Inmates in their 40s and 50s made up the largest wave of juvenile lifers released in Pennsylvania in the years following the 2016 Supreme Court ruling in <span style="font-style: italic;">Montgomery v. Louisiana</span>.</div><br>
-      <div class="chart-author">By CAMILA VELLOSO</div><br>
-    </div>
-    <div id="age-released"></div><br>
-    <div class="chart-source">Source: Pennsylvania Department of Corrections</div><br>
-  </div><br><br>  <!-- END second graphic container-->
 
     <a href="hogan.html"><p class="more">READ MORE: Current Maryland Governor Larry Hogan diverts from decades old "life means life policy"</p></a><br>
 
@@ -245,29 +234,53 @@ granted by governors over the years meet this standard. But advocates say those 
                ]
              },
              color: {
-               pattern: ['#D9B269', '#ff00ff', '#ee6a4b', '#60c4b2', '#973895']
+               pattern: ['#78A6DD', '#ff00ff', '#ee6a4b', '#60c4b2', '#973895']
              }
            });
 
-           var chart2 = c3.generate({
-              bindto: '#age-released',
-               data: {
-                 x : 'x',
-                   columns: [
-                     ['x', 2016, 2017, 2018, 2019],
-                     ['30-39yrs', 1, 1, 2, 9],
-         ['40-49yrs', 0, 15, 39, 25],
-         ['50-59yrs', 5, 61, 13, 6],
-         ['60-69yrs', 1, 12, 7, 3]
-                   ],
-                   type: 'bar'
-               },
+
+var chart = c3.generate({
+  bindto: '#race',
+    data: {
+        x : 'x',
+        columns: [
+            ['x', 'Minorities', 'White','Other race/unknown'],
+            ['Juvenile lifers', 260, 44, 8],
+        ],
+        type: 'bar'
+    },
+    bar: {
+        width: {
+            ratio: 0.5 // this makes bar width 50% of length between ticks
+        }
+        // or
+        //width: 100 // this makes bar width 100px
+    },
+    axis: {
+        x: {
+            type: 'category' // this needed to load string x value
+        }
+    },
+    color: {
+      pattern: ['#78A6DD']
+    }
+});
 
 
-               color: {
-                 pattern: ['#FFDA94', '#D9B168', '#27548C', '#78A6DD', '#973895']
-               }
-           });
+
+     var chart2 = c3.generate({
+
+         data: {
+             x: 'x',
+             columns: [
+                  ['x', 'Asian', 'Black', 'Hispanic/Latino', 'Native American or Alaskan Native', 'Native Hawaiian or Pacific Islander', 'White','Other race/unknown'],
+                 ['Juvenile lifers', 2, 239, 16, 2, 1, 8, 44],
+             ],
+             type: 'bar'
+         },
+
+     });
+
 
 </script>
 
