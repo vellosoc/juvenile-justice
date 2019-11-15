@@ -200,10 +200,10 @@ html {
 
 }
 
-.chart .dw-chart-header h1{
-  font-family: 'Muli', sans-serif;
+iframe{
+  heigth: 500px;
+  width: 100%;
 }
-
 
 .c3-event-rect{
   color: black !important;
