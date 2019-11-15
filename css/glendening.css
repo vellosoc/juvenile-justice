@@ -41,6 +41,12 @@ html {
   width: 100%;
 }
 
+.photo-caption{
+  font-size: .9em;
+  font-family: 'Muli', sans-serif;
+  padding-top: 10px;
+}
+
 .col.one{
   text-align: left;
   margin-left: 10px;
