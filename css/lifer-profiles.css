@@ -60,17 +60,73 @@ html {
     margin-bottom: 0;
 }
 
+
 .centered {
   position: absolute;
   top: 50%;
-  left: 0%;
+  left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
 
+.article-title{
+  font-family: 'Antic Didone', serif;
+  font-size: 4em;
+  color: white;
+}
 
+.article-desc{
+  font-family: 'Muli', sans-serif;
+  font-size: 1.2em;
+  color: white;
+}
+
+
+h1{
+  font-weight: 300;
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+  font-size:2em;
+}
+
+.about{
+  margin: 0 auto;
+  font-family: 'Muli', sans-serif;
+  letter-spacing: normal;
+  color: white;
+  font-size: 1em;
+  width: 50%;
+}
+
+.final-credits{
+  margin: 0 auto;
+  font-family: 'Muli', sans-serif;
+  letter-spacing: normal;
+  color: white;
+  font-size: 1em;
+  width: 50%;
+}
+.more{
+  font-size: 1em;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  text-align: left;
+  width: 60%;
+  margin: 0 auto;
+  color: white ;
+}
+
+.more:hover{
+  color: #D9B269;
+  text-decoration: underline;
+}
+
+.pbs-video{
+  width: 78%;
+  margin: 0 auto;
+}
     .video-content{
-       width:70%;
+       width:60%;
        margin:0 auto;
        background-color: #3E3F3A;
        padding:10px;
@@ -131,12 +187,7 @@ html {
 }
 
 
-h1{
-    font-family: 'Muli', sans-serif;
-    font-size: 1.25em;
-    color: white;
-    text-align: center;
-  }
+
 
 h2{
   font-family: 'Antic Didone', serif;
@@ -177,11 +228,16 @@ h4{
 
   .state{
     font-family: 'Muli', sans-serif;
-    font-size: 2em;
+    font-size: 1.8em;
     color: white;
     text-transform: uppercase;
-    text-align: left;
-    text-decoration: underline;
+    text-align: center;
+  }
+
+  .border{
+    width: 30%;
+    margin: 0 auto;
+    border-top: 1px solid white;
   }
 
   .incarceration-graph{
@@ -191,10 +247,10 @@ h4{
   }
 
   .author{
-    font-size: 18px;
+    font-size: 1.125em;
     font-family: 'Lora', serif;
     font-weight: bold;
-    text-align: left;
+    text-align: center;
   }
 
   .pa-county-title{
@@ -312,16 +368,6 @@ h4{
 
   }
 
-a{
-     color: #8A26CC ;
-     text-decoration: underline;
-
-  }
-
-  a:hover{
-    text-decoration: none;
-    color: #AD30FF;
-  }
 
 
   .data-viz{
@@ -522,7 +568,7 @@ font-family: 'Antic Didone', serif;
     .hide-on-mobile{
       display: none;
     }
-    
+
   .hide{
     display: none;
   }
