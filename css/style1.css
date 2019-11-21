@@ -178,6 +178,7 @@ h4{
     white-space: nowrap;
     overflow: hidden;
     transform: translateY(-50%);
+    text-shadow: 1px 1px #000;
 
 }
 
@@ -206,6 +207,7 @@ h4{
     text-align: center;
     display:none;
     height:50px;
+    text-shadow: 1px 1px #000;
 }
 
 /* Maryland and The Nation button styles */

@@ -73,12 +73,14 @@ html {
   font-family: 'Antic Didone', serif;
   font-size: 4em;
   color: white;
+  text-shadow: 1px 1px #000;
 }
 
 .article-desc{
   font-family: 'Muli', sans-serif;
   font-size: 1.2em;
   color: white;
+  text-shadow: 1px 1px #000;
 }
 
 
@@ -549,6 +551,10 @@ font-family: 'Antic Didone', serif;
   p{
     width: 70%;
   }
+
+  .video-content{
+    width: 70%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -584,6 +590,10 @@ font-family: 'Antic Didone', serif;
 
     p{
       font-size: 1.1em;
+      width: 80%;
+    }
+
+    .video-content{
       width: 80%;
     }
 
@@ -632,4 +642,23 @@ font-family: 'Antic Didone', serif;
     }
 
 
+}
+
+
+@media only screen and (max-width: 400px){
+  #topbar{
+    font-size: .5em;
+  }
+
+  #home{
+    font-size: .6em;
+  }
+
+  #social-icons{
+    font-size: .6em;
+  }
+
+  .centered{
+    top:60%;
+  }
 }

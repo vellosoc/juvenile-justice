@@ -72,12 +72,14 @@ html {
   font-family: 'Antic Didone', serif;
   font-size: 4em;
   color: white;
+  text-shadow: 1px 1px #000;
 }
 
 .article-desc{
   font-family: 'Muli', sans-serif;
   font-size: 1.2em;
   color: white;
+  text-shadow: 1px 1px #000;
 }
 
 .article-author{
@@ -470,8 +472,8 @@ a{
   }
 
   a:hover{
-    text-decoration: none;
-    color: #AD30FF;
+    text-decoration: underline;
+    color: #FFDA94;
   }
 
 
@@ -511,7 +513,7 @@ a{
   #social-icons{
     font-size: .8em;
   }
-  
+
   .hide-on-mobile{
     display: none;
   }
@@ -581,4 +583,22 @@ a{
       font-size: .8em;
     }
 
+}
+
+@media only screen and (max-width: 400px){
+  #topbar{
+    font-size: .5em;
+  }
+
+  #home{
+    font-size: .6em;
+  }
+
+  #social-icons{
+    font-size: .6em;
+  }
+
+  .centered{
+    top:60%;
+  }
 }
