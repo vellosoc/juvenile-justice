@@ -139,7 +139,19 @@
 
     <p>The juvenile lifer population in Pennsylvania began to increase in the 1970s, reaching a peak in the 1990s amid fears of a new generation of criminals, the “superpredator” - a prediction that never came into fruition.</p><br><br>
 
-  <!-- first graphic container-->
+    <!-- first graphic container-->
+      <div class="incarceration-graph"><br>
+          <div class="graphic-container">
+            <div class="chart-title"><b>Examining juveniles sentenced to life by decade</b></div>
+            <div class="chart-description">The number of juveniles sentenced to life without parole in Pennsylvania spiked in the '90s, a consequence of tough-on-crime policies and growing fears of &quot;superpredators.&quot;</div><br>
+            <div class="chart-author">By CAMILA VELLOSO</div><br>
+          </div>
+          <div id="incarceration1"></div><br>
+          <div class="chart-source">Source: Pennsylvania Department of Corrections</div><br>
+        </div><br><br>  <!-- END first graphic container-->
+
+
+  <!-- first graphic container
     <div class="incarceration-graph"><br>
         <div class="graphic-container">
           <div class="chart-title"><b>Incarceration rates for juvenile lifers in Pennsylvania</b></div>
@@ -148,7 +160,7 @@
         </div>
         <div id="incarceration"></div><br>
         <div class="chart-source">Source: Pennsylvania Department of Corrections</div><br>
-      </div><br><br>  <!-- END first graphic container-->
+      </div><br><br> -->
 
     <p>Many of these “juvenile lifers” struggled to adapt to their new circumstances.</p><br><br>
 
@@ -366,9 +378,9 @@
     <p>Only 15 juvenile lifers have been resentenced to life without parole and 216 were
     resentenced to numbered terms. </p><br><br>
 
-    <p class="pa-county-title"><br>County-level approaches to resentencing</p>
+    <p class="pa-county-title"><br>Juvenile lifers by county in Pennsylvania</p>
 
-    <p class="pa-county-description">Click through different PA counties to see the total juvenile population and status of those cases.</p>
+    <p class="pa-county-description">Of the 521 juveniles sentenced to life in Pennsylvania, 304 were imprisoned in Philadelphia County. Many counties in the state have just a few juvenile lifers or none at all. Click on a county below to see the status of juvenile cases.</p>
 
     <!-- Mobile text without leaflet map -->
     <p class="pa-county-description-mobile">In over three years, Pennsylvania dramatically decreased the number of juvenil lifers incarcerated in the state, giving most a second chance.</p>
@@ -555,6 +567,33 @@
    <script type="text/javascript">
    //CHART 1
 
+
+            var chart = c3.generate({
+              bindto: '#incarceration1',
+                data: {
+                    columns: [
+                        ['Juveniles sentenced to life', 1, 1, 83, 109, 194, 106, 27]
+                    ],
+                    type: 'bar'
+                },
+                axis: {
+                    x: {
+                        type: 'category',
+                        categories: ['1950s', '1960s', '1970s', '1980s', '1990s', '2000s', '2010s']
+                    }
+                },
+                bar: {
+                    width: {
+                        ratio: 0.5 // this makes bar width 50% of length between ticks
+                    }
+                    // or
+                    //width: 100 // this makes bar width 100px
+                },
+                color: {
+                  pattern: ['#D9B269', '#ff00ff', '#ee6a4b', '#60c4b2', '#973895']
+                }
+            });
+
            var chart1 = c3.generate({
              bindto: '#incarceration',
              data: {
@@ -564,6 +603,7 @@
                 ['Juvenile lifers', 1, 1, 83, 109, 194, 106, 27],
                ]
              },
+
              color: {
                pattern: ['#D9B269', '#ff00ff', '#ee6a4b', '#60c4b2', '#973895']
              }

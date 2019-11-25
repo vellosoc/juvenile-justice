@@ -132,7 +132,7 @@
     <div class="incarceration-graph"><br>
         <div class="graphic-container">
           <div class="chart-title"><b>Racial makeup of juvenile lifers in Maryland</b></div>
-          <div class="chart-description">76.6% of incarcerated juvenile lifers in Maryland are black and 14.1% are white. </div><br>
+          <div class="chart-description">Black juveniles are overrepresented in juveniles lifer population. 69% of all Maryland prisoners are black, 77% of juveniles serving life sentences are black. White juveniles are underreprented in the juvenile lifer population, making up 25% of all Maryland prisoners but only 14% of juveniles serving life sentences.</div><br>
           <div class="chart-author">By CAMILA VELLOSO</div><br>
         </div>
         <div id="race"></div><br>
@@ -149,8 +149,8 @@
 <!-- Second graphic container-->
     <div class="incarceration-graph"><br>
       <div class="graphic-container">
-        <div class="chart-title"><b>Juvenile lifer incarceration by Maryland counties</b></div>
-        <div class="chart-description">Baltimore City, followed by Prince George’s County and Baltimore County, has the most incarcerated juvenile lifers at 115.</div><br>
+        <div class="chart-title"><b>Juvenile lifer incarceration in Maryland by county</b></div>
+        <div class="chart-description">Baltimore City has 115 incarcerated juvenile lifers, the most of any jurisdiction in Maryland. Prince George’s County has 79 incarcerated juvenile lifers and Baltimore County has 40.</div><br>
         <div class="chart-author">By CAMILA VELLOSO</div><br>
         <img src="images/md-counties-map-2.png" alt="Map of juvenile lifers by Maryland counties" width="100%"><br><br>
         <div class="chart-source">Source: Maryland Department of Public Safety and Correctional Services Recruitment</div><br>
@@ -245,8 +245,8 @@ var chart = c3.generate({
     data: {
         x : 'x',
         columns: [
-            ['x', 'Black', 'White','Other race/unknown'],
-            ['Juvenile lifers', 260, 44, 8],
+            ['x', 'Black', 'White', 'Hispanic/Latino', 'Asian', 'Other race/unknown'],
+            ['Juvenile lifers', 239, 44, 16, 2, 11],
         ],
         type: 'bar'
     },

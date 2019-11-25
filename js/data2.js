@@ -227,8 +227,8 @@ var data2 =
       "resentanced_nonlife": 16,
       "given_life": 2,
       "waiting_resentance": 6,
-      "total_minority": 89.7,
-      "total_white": 10.3
+      "total_minority": 88.5,
+      "total_white": 11.5
    },
    "ELK": {
       "total": 1,
