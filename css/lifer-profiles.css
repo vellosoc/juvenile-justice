@@ -83,13 +83,12 @@ html {
   text-shadow: 1px 1px #000;
 }
 
-
-h1{
-  font-weight: 300;
-  text-align: center;
-  font-family: 'Muli', sans-serif;
-  font-size:2em;
-}
+.end-gold{
+    font-family: 'Muli', sans-serif;
+    font-size: 1.25em;
+    color: white;
+    text-align: center;
+  }
 
 .about{
   margin: 0 auto;
@@ -555,6 +554,20 @@ font-family: 'Antic Didone', serif;
   .video-content{
     width: 70%;
   }
+  .centered{
+    width: 80%;
+  }
+  .more{
+    width: 70%;
+  }
+
+  .about{
+    width: 60%;
+  }
+
+  .final-credits{
+    width: 60%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -579,7 +592,7 @@ font-family: 'Antic Didone', serif;
     display: none;
   }
   .article-title{
-    font-size: 2.5em;
+    font-size: 3em;
 
     }
 
@@ -650,6 +663,10 @@ font-family: 'Antic Didone', serif;
     font-size: .5em;
   }
 
+  span.topbar-mobile{
+    display: none !important;
+  }
+
   #home{
     font-size: .6em;
   }
@@ -659,6 +676,15 @@ font-family: 'Antic Didone', serif;
   }
 
   .centered{
-    top:60%;
+    width: 80%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .article-title{
+    font-size: 3em;
+  }
+
+  .article-desc{
+    font-size: 1em;
   }
 }

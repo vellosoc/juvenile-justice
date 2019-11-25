@@ -2,23 +2,11 @@ html {
   scroll-behavior: smooth;
 }
 
-#tophat {
-  color:white;
-  font-family: 'Muli', sans-serif;
-  text-align:center;
-  font-size:1.1em;
-  line-height: normal;
-  padding: 10px;
-  position: fixed;
-  width: 100%;
-}
-
 .navbar{
   background-color:rgba(0, 0, 0, 0.5);
   position: fixed;
   width: 100%;
 }
-
 
 #topbar{
   font-family: 'Antic Didone', serif;
@@ -40,20 +28,6 @@ html {
   font-size: 1.2em;
 }
 
-.col.one{
-  text-align: left;
-  margin-left: 10px;
-  font-size: .85em;
-  font-family: 'Special Elite', cursive;
-  color: white;
-}
-
-.col.three{
-  text-align: right;
-  margin-right: 10px;
-}
-
-
 .hero-container {
   height: 100vh;
     margin-bottom: 0;
@@ -66,8 +40,6 @@ html {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
-
 
 .article-title{
   font-family: 'Antic Didone', serif;
@@ -133,6 +105,10 @@ html {
     font-family: 'Lora', serif;
     font-weight: bold;
     text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 1.5em;
+    color:white;
   }
 
   .pa-county-title{
@@ -235,9 +211,13 @@ html {
   }
 
  .date{
-     font-size: 0.9375em;
+     font-size: 15px;
      text-align: center;
      font-family: 'Lora', serif;
+     width: 60%;
+     margin: 0 auto;
+     line-height: 1.5em;
+     color:white;
    }
 
   .col.one a{
@@ -453,7 +433,7 @@ font-size: 1.5em;
   color: #D9B269;
 }
 
-h1{
+.end-gold{
   font-weight: 300;
   text-align: center;
   font-family: 'Muli', sans-serif;
@@ -509,8 +489,6 @@ h1{
     width: 70%;
   }
 
-
-
   .more{
     width: 70%;
   }
@@ -521,6 +499,10 @@ h1{
 
   .final-credits{
     width: 60%;
+  }
+
+  .centered{
+    width: 80%;
   }
 }
 
@@ -542,20 +524,15 @@ h1{
     display: none;
   }
 
-
   .article-title{
-    font-size: 2.5em;
+    font-size: 3em;
 
     }
 
   .article-desc{
-    padding-top: 50px;
     font-size: .9em;
   }
 
-  .centered {
-    top: 35%;
-  }
 
 
       p{
@@ -737,9 +714,14 @@ h1{
 }
 
 
+
 @media only screen and (max-width: 400px){
   #topbar{
-    font-size: .5em;
+    font-size: .6em;
+  }
+
+  span.topbar-mobile{
+    display: none !important;
   }
 
   #home{
@@ -751,7 +733,16 @@ h1{
   }
 
   .centered{
-    top:60%;
+    width: 80%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .article-title{
+    font-size: 3em;
+  }
+
+  .article-desc{
+    font-size: 1em;
   }
 }
 

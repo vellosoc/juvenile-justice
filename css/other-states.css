@@ -108,13 +108,6 @@ html {
 }
 
 
-h1{
-    font-family: 'Muli', sans-serif;
-    font-size: 1.25em;
-    color: white;
-    text-align: center;
-  }
-
 h2{
   font-family: 'Antic Didone', serif;
     font-size: 4em;
@@ -173,6 +166,10 @@ h4{
     font-family: 'Lora', serif;
     font-weight: bold;
     text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 1.5em;
+    color:white;
   }
 
   .pa-county-title{
@@ -273,9 +270,13 @@ h4{
 
 
  .date{
-     font-size: 15px;
-     text-align: center;
-     font-family: 'Lora', serif;
+   font-size: 15px;
+   text-align: center;
+   font-family: 'Lora', serif;
+   width: 60%;
+   margin: 0 auto;
+   line-height: 1.5em;
+   color:white;
    }
 
   .col.one a{
@@ -330,7 +331,7 @@ h4{
     color: #D9B269;
   }
 
-  h1{
+  .end-gold{
     font-weight: 300;
     text-align: center;
     font-family: 'Muli', sans-serif;
@@ -532,6 +533,23 @@ font-family: 'Antic Didone', serif;
   p{
     width: 70%;
   }
+  .more{
+    width: 70%;
+  }
+
+  .about{
+    width: 60%;
+  }
+
+  .final-credits{
+    width: 60%;
+  }
+  .incarceration-graph{
+    width: 70%;
+  }
+  .centered{
+    width: 80%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -552,7 +570,7 @@ font-family: 'Antic Didone', serif;
     display: none;
   }
   .article-title{
-    font-size: 2.5em;
+    font-size: 3em;
 
     }
 
@@ -629,6 +647,19 @@ font-family: 'Antic Didone', serif;
   }
 
   .centered{
-    top:60%;
+    width: 80%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .article-title{
+    font-size: 3em;
+  }
+
+  .article-desc{
+    font-size: 1em;
+  }
+
+  span.topbar-mobile{
+    display: none !important;
   }
 }

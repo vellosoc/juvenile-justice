@@ -30,16 +30,6 @@ html {
   font-size: 1.2em;
 }
 
-#tophat {
-  color:white;
-  font-family: 'Muli', sans-serif;
-  text-align:center;
-  font-size:1.1em;
-  line-height: normal;
-  padding: 10px;
-  position: fixed;
-  width: 100%;
-}
 
 .col.one{
   text-align: left;
@@ -128,10 +118,14 @@ html {
   }
 
   .author{
-    font-size: 1.125em;
+    font-size: 18px;
     font-family: 'Lora', serif;
     font-weight: bold;
     text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 1.5em;
+    color:white;
   }
 
   .pa-county-title{
@@ -234,9 +228,13 @@ html {
   }
 
  .date{
-     font-size: 0.9375em;
-     text-align: center;
-     font-family: 'Lora', serif;
+   font-size: 15px;
+   text-align: center;
+   font-family: 'Lora', serif;
+   width: 60%;
+   margin: 0 auto;
+   line-height: 1.5em;
+   color:white;
    }
 
   .col.one a{
@@ -446,12 +444,12 @@ font-size: 1.5em;
   color: #D9B269;
 }
 
-h1{
-  font-weight: 300;
-  text-align: center;
-  font-family: 'Muli', sans-serif;
-  font-size:2em;
-}
+.end-gold{
+    font-family: 'Muli', sans-serif;
+    font-size: 1.25em;
+    color: white;
+    text-align: center;
+  }
 
 .about{
   margin: 0 auto;
@@ -658,7 +656,23 @@ h1{
     .timeline-body{
           font-size: .9em;
         }
+
+        .more{
+          width: 70%;
+        }
+
+        .about{
+          width: 60%;
+        }
+
+        .final-credits{
+          width: 60%;
+        }
+        .centered{
+          width: 80%;
+        }
 }
+
 
 @media only screen and (max-width: 600px) {
 
@@ -674,20 +688,14 @@ h1{
     font-size: .8em;
   }
 
+    .article-title{
+      font-size: 3em;
 
-  .article-title{
-    font-size: 2.5em;
+      }
 
+    .article-desc{
+      font-size: .9em;
     }
-
-  .article-desc{
-    padding-top: 50px;
-    font-size: .9em;
-  }
-
-  .centered {
-    top: 35%;
-  }
 
 
     p{
@@ -754,123 +762,8 @@ h1{
     font-size: .7em;
   }
 
-  .pa-county-title{
-    font-size: 1.2em;
-    padding-bottom: 15px;
-  }
-
-  .pa-county-description{
-    font-size: .9em;
-    padding-bottom: 15px;
-  }
-
-  .pa-county-author{
-    font-size: .7em;
-    padding-bottom: 15px;
-  }
-
-  .pa-county-credits{
-    font-size: .7em;
-  }
-
-  #mapid {
-    display: none;
-  }
-
-  #number{
-    font-size: 3em;
-  }
-
-  #smallnumber {
-    font-size: 1.5em;
-    padding-left: 7px;
-  }
-
-  #percentage {
-    font-size: .9em;
-    padding-left: 7px;
-  }
-
-  .county_nam{
-    font-size: 1.5em;
-  }
-
-  .total {
-  font-size: 1.2em;
-  }
-
-  .total_resentanced {
-    font-size: 1.2em;
-  }
-
-  .released {
-  font-size: 1.2em;
-  padding: 0;
-  padding-left: 7px;
-  }
-
-  .resentanced_nonlife {
-  font-size: 1.2em;
-  padding: 0;
-  padding-left: 7px;
-  }
-
-  .given_life {
-    font-size: 1.2em;
-    padding: 0;
-    padding-left: 7px;
-  }
-
-  .waiting_resentance {
-    font-size: 1.2em;
-    padding: 0;
-    padding-left: 7px;
-  }
-
-  .total_minority {
-    font-size: 1.2em;
-    padding-top: 0;
-    padding-left: 7px;
-  }
-
-  .total_white {
-    font-size: 1.2em;
-    padding: 0;
-    padding-left: 7px;
-  }
-  .asterisk {
-    font-size: 30px;
-    color: white;
-    text-align: left;
-    font-size: 1.5em;
-  }
-
-  .races {
-    font-size: .9em;
-    text-align: right;
-    color: white;
-    padding-top: 15px;
-    padding-right: 15px;
-
-    font-family: 'Antic Didone', serif;
-  }
-
   .hide-until-mobile{
     display: block;
-  }
-
-  .pa-county-description{
-    display: none;
-  }
-
-  .pa-county-description-mobile{
-    display: block;
-    color: white;
-    font-size: .9em;
-    font-family: 'Muli', sans-serif;
-    width: 80%;
-    text-align: left;
-    padding-bottom: 10px;
   }
 
   .hide{
@@ -892,64 +785,19 @@ h1{
   }
 
   .centered{
-    top:60%;
+    width: 80%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .article-title{
+    font-size: 3em;
+  }
+
+  .article-desc{
+    font-size: 1em;
+  }
+
+  span.topbar-mobile{
+    display: none !important;
   }
 }
-
-
-
-
-    /* scrollama */
-
-    .scroll-graphic {
-      position: -webkit-sticky;
-      position: sticky;
-      top:0;
-      height: 50vh;
-    }
-
-    .step {
-      padding: 2rem;
-      height: 50vh;
-    }
-
-    .scroll-graphic-tab{
-      padding-top: 15px;
-      padding-bottom: 15px;
-    }
-
-
-    .col-graphic{
-      position: -webkit-sticky;
-      position: sticky;
-      bottom: 0;
-      background-color: white;
-    }
-
-
-
-
-
-    /* Large devices (desktops, 992px and up) */
-    @media (min-width: 992px) {
-
-      .scroll-graphic {
-        position: -webkit-sticky;
-        position: sticky;
-        top:0;
-        height: 100vh;
-      }
-
-      .step {
-        height: 100vh;
-      }
-
-      .col-graphic{
-        position: relative;
-      }
-
-      .scroll-text{
-        /* height: 100vh;
-        overflow: hidden; */
-      }
-    }

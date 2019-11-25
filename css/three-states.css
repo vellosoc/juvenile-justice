@@ -10,6 +10,7 @@ html {
 }
 
 
+
 #topbar{
   font-family: 'Antic Didone', serif;
   font-size: 1.125em;
@@ -28,6 +29,7 @@ html {
   text-align: left !important;
   color: white;
   font-size: 1.2em;
+
 }
 
 #tophat {
@@ -108,7 +110,7 @@ html {
 }
 
 
-h1{
+.end-gold{
     font-family: 'Muli', sans-serif;
     font-size: 1.25em;
     color: white;
@@ -150,6 +152,10 @@ h1{
     font-family: 'Lora', serif;
     font-weight: bold;
     text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 1.5em;
+    color:white;
   }
 
   .pa-county-title{
@@ -253,6 +259,10 @@ h1{
      font-size: 15px;
      text-align: center;
      font-family: 'Lora', serif;
+     width: 60%;
+     margin: 0 auto;
+     line-height: 1.5em;
+     color:white;
    }
 
   .col.one a{
@@ -459,12 +469,6 @@ font-family: 'Antic Didone', serif;
   color: #D9B269;
 }
 
-h1{
-  font-weight: 300;
-  text-align: center;
-  font-family: 'Muli', sans-serif;
-  font-size:2em;
-}
 
 a{
      color: #D9B269;
@@ -498,6 +502,22 @@ a{
   p{
     width: 70%;
   }
+
+  .more{
+    width: 70%;
+  }
+
+  .about{
+    width: 60%;
+  }
+
+  .final-credits{
+    width: 60%;
+  }
+
+  .centered{
+    width: 80%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -522,7 +542,7 @@ a{
     display: none;
   }
   .article-title{
-    font-size: 2.5em;
+    font-size: 3em;
 
     }
 
@@ -590,6 +610,10 @@ a{
     font-size: .5em;
   }
 
+  span.topbar-mobile{
+    display: none !important;
+  }
+
   #home{
     font-size: .6em;
   }
@@ -599,6 +623,16 @@ a{
   }
 
   .centered{
-    top:60%;
+    width: 80%;
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
+  .article-title{
+    font-size: 3em;
+  }
+
+  .article-desc{
+    font-size: 1em;
+  }
+
 }
