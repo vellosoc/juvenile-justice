@@ -1,0 +1,63 @@
+ADDING SOCIAL MEDIA POPUPS TO BUTTONS:
+
+I added a files called "social-buttons.js" into your scripts folder.
+
+I also added the following style into your stylesheet so that the icons will appear clickable:
+
+  .icon-twitter, .icon-facebook {
+    cursor:pointer;
+  }
+
+
+To implement on the index page, I did the following. You will want to replicate for other pages
+
+
+1. I added this near the bottom of the page, above </body> tag:
+
+    <!-- Javascript for social button popups -->
+    <script src="js/social-buttons.js"></script>
+
+    <!-- Variables for social media icon popups -->
+      <script type="text/javascript">
+        //Twitter variables
+        var tweet = "INSERT TWEET TEXT URL"; //Tweet text
+        var url = "INSERT PROJECT URL"; //Interactive URL
+
+        //Facebook variables
+        var picture = "INSERT FACEBOOK THUMBNAIL URL"; //Picture URL
+        var title = "INSERT PROJECT TITLE"; //Post title
+        var description = "INSERT DESC"; //Post description
+        var url = "INSERT PROJECT URL"; //Interactive URL
+
+      </script>
+
+2. I added the class "icon-twitter" and "icon-facebook" to the <i> tags for the individual icons.
+
+
+
+
+
+METRICS:
+
+** Wait to do this until you have set up the launch folder on FTP. Don't implement these in the testing folder **
+
+
+1. Add to following in the header, swapping out Code Red language and URLs for current project
+
+      <!-- METRICS -->
+      <meta name="parsely-title" content="Red Alert Heat and Health" />
+      <meta name="parsely-link" content="https://cnsmaryland.org/interactives/summer-2019/code-red/heat-health.html" />
+      <meta name="parsely-type" content="post" />
+      <meta name="parsely-image-url" content="https://cnsmaryland.org/interactives/summer-2019/code-red/images/toc-comp-health.jpg" />
+      <meta name="parsely-pub-date" content="2019-08-15T12:00:00Z" />
+      <meta name="parsely-section" content="Red Alert" />
+      <meta name="parsely-author" content="CNS Maryland" />
+      <meta name="parsely-tags" content="climate, health, baltimore, journalism, interactives" />
+
+
+2. Add this at the bottom of the page, above the </body> tag
+
+    <!-- METRICS -->
+      <!-- START Parse.ly Include: Standard -->
+        <script id="parsely-cfg" src="//cdn.parsely.com/keys/cnsmaryland.org/p.js"></script>
+      <!-- END Parse.ly Include: Standard -->

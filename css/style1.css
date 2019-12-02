@@ -276,6 +276,11 @@ img {
   display: none;
 }
 
+
+.icon-twitter, .icon-facebook {
+  cursor:pointer;
+}
+
 /* Media Queries*/
 
 @media(max-width:1024px){
