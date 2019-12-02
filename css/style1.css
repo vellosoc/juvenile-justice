@@ -4,6 +4,8 @@ html {
   scroll-behavior: smooth;
 }
 
+/*Body backgroud image made by Atle Mo: https://www.toptal.com/designers/subtlepatterns/black-paper/*/
+
 body{
   background-image: url("../images/black_paper.png");
   color: white;
