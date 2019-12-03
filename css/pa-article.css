@@ -8,6 +8,10 @@ html {
   width: 100%;
 }
 
+.icon-twitter, .icon-facebook {
+  cursor:pointer;
+}
+
 #topbar{
   font-family: 'Antic Didone', serif;
   font-size: 1.125em;
@@ -81,6 +85,10 @@ html {
 }
 
 
+.scroll-source{
+  font-style: italic;
+  font-size: .7em;
+}
 
 
   p{

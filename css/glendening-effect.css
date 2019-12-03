@@ -8,6 +8,10 @@ html {
   width: 100%;
 }
 
+.icon-twitter, .icon-facebook {
+  cursor:pointer;
+}
+
 
 #topbar{
   font-family: 'Antic Didone', serif;

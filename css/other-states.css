@@ -267,6 +267,9 @@ h4{
 
   }
 
+  .icon-twitter, .icon-facebook {
+    cursor:pointer;
+  }
 
 
  .date{
