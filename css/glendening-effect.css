@@ -125,14 +125,27 @@ html {
  }
 
 
-  p{
-    font-family: 'Lora', serif;
-    font-size: 1.25em;
-    width: 60%;
-    margin: 0 auto;
-    line-height: 1.5em;
-    color:white;
-  }
+p{
+  font-family: 'Lora', serif;
+  font-size: 1.25em;
+  width: 60%;
+  margin: 0 auto;
+  line-height: 1.5em;
+  color:white;
+}
+
+.dateline{
+  font-size: 1.4em;
+  font-family: 'Muli', sans-serif;
+}
+
+.video-caption{
+  font-size: .9em;
+  font-family: 'Muli', sans-serif;
+  background-color: #3E3F3A;
+  text-align: center;
+  padding-top: 10px;
+}
 
   .incarceration-graph{
     width: 60%;

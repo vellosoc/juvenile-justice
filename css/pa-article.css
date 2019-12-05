@@ -91,14 +91,38 @@ html {
 }
 
 
-  p{
-    font-family: 'Lora', serif;
-    font-size: 1.25em;
-    width: 60%;
-    margin: 0 auto;
-    line-height: 1.5em;
-    color:white;
-  }
+p{
+  font-family: 'Lora', serif;
+  font-size: 1.25em;
+  width: 60%;
+  margin: 0 auto;
+  line-height: 1.5em;
+  color:white;
+}
+
+.dateline{
+  font-size: 1.4em;
+  font-family: 'Muli', sans-serif;
+}
+
+.pullquote {
+  border-left: 0.2em solid #D9B269;
+  font-family: 'Muli', sans-serif;
+  padding-left: 10px;
+  color: #FFDA94;
+  background-color: #3E3F3A;
+  font-size: 1.5em;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.attribution{
+  color: white !important;
+  font-size: .9em;
+  font-style: italic;
+  font-weight: normal !important;
+}
+
 
   .incarceration-graph{
     width: 60%;
@@ -493,6 +517,10 @@ font-size: 1.5em;
     width: 70%;
   }
 
+  .pullquote{
+    width: 70%;
+  }
+
   .incarceration-graph{
     width: 70%;
   }
@@ -543,10 +571,19 @@ font-size: 1.5em;
 
 
 
-      p{
-        font-size: 1.1em;
-        width: 80%;
-      }
+  p{
+    font-size: 1.1em;
+    width: 80%;
+  }
+
+  .pullquote{
+    width: 80%;
+    font-size: 1.1em;
+  }
+
+  .attribution{
+    font-size: .7em;
+  }
 
   .incarceration-graph{
     width: 80%;
