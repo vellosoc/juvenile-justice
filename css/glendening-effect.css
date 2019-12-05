@@ -134,6 +134,12 @@ p{
   color:white;
 }
 
+.headline{
+  font-size: 1.9em;
+  font-family: 'Antic Didone', serif;
+  text-align: center;
+}
+
 .infobox{
   border: 1px solid #FFDA94;
   font-family: 'Muli', sans-serif;
@@ -551,6 +557,10 @@ font-size: 1.5em;
     width: 70%;
   }
 
+  .headline{
+    width: 70%;
+  }
+
   .infobox{
     width: 70%;
   }
@@ -610,6 +620,11 @@ font-size: 1.5em;
     p{
       font-size: 1.1em;
       width: 80%;
+    }
+
+    .headline{
+      width: 80%;
+      font-size: 1.7em;
     }
 
     .infobox{
