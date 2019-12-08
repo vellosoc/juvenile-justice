@@ -51,7 +51,7 @@ padding-left: 25px;
 .hero-container {
   position: relative;
   text-align: center;
-  background-image: url("../images/inside-prison-dark.png");
+  background-image: url("../images/inside-prison-dark.jpg");
   height:100vh;
   background-repeat: no-repeat;
 }
@@ -302,36 +302,33 @@ img {
   cursor:pointer;
 }
 
-.sponsor {
-  max-width:200px;
-  margin:0 auto;
+.sponsor-row{
+  width:60%;
+  margin: 0 auto;
 }
 
-.row-sponsor2 {
+.sponsor-row2{
+  width:60%;
   margin: 0 auto;
-  width: 50%;
-  /*background-color: white; */
-  background-image: url("../images/black_paper.png");
- }
+}
 
- .row-sponsor {
-  text-align:center;
-  margin-bottom:20px;
+.sponsor {
+  margin:0 auto;
 }
 
 #hc {
   display: block;
-  width: 80%;
+  width: 60%;
 }
 
 #cns {
   display: block;
-  width: 80%;
+  width: 60%;
 }
 
 #pbs {
   display: block;
-  width: 80%;
+  width: 60%;
 }
 
 #merrill {
@@ -348,7 +345,6 @@ img {
   display: block;
   width: 80%;
 }
-
 
 /* Media Queries*/
 

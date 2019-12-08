@@ -147,10 +147,11 @@ p{
   width: 60%;
   margin: 0 auto;
   line-height: 1.5em;
-  background-color:rgba(50, 50, 50, 0.4);
+  background-color:rgba(50, 50, 50, 1);
   color:white;
   padding:15px;
 }
+
 
 .dateline{
   font-size: 1.4em;
@@ -534,6 +535,22 @@ font-size: 1.5em;
   margin-top: 0;
 }
 
+td{
+  color: white;
+}
+
+table{
+  border: 1px solid white;
+}
+
+.table .thead-dark th {
+  font-size: 13px;
+  font-family: 'Muli,' sans-serif;
+  border-color: white;
+
+}
+
+
 .sponsor-row{
   width:60%;
   margin: 0 auto;
@@ -578,6 +595,26 @@ font-size: 1.5em;
   width: 80%;
 }
 
+.only-mobile-image{
+  display: none;
+}
+
+@media(min-width:1200px){
+  .table-responsive{
+    display: inline-block;
+  }
+  .only-mobile-image{
+    display: none;
+  }
+}
+@media(max-width:1199px){
+  .only-mobile-image{
+    display: inline-block;
+  }
+  .table-responsive{
+    display: none;
+  }
+}
 
 @media(max-width:1024px){
   #topbar{
@@ -628,6 +665,12 @@ font-size: 1.5em;
 
   .centered{
     width: 80%;
+  }
+  .table-responsive{
+    display: none;
+  }
+  .only-mobile-image{
+    display: inline-block;
   }
 }
 
@@ -737,6 +780,10 @@ font-size: 1.5em;
   .hide{
     display: none;
   }
+
+  .table-responsive{
+    display: none;
+  }
 }
 
 
@@ -768,5 +815,9 @@ font-size: 1.5em;
 
   .article-desc{
     font-size: 1em;
+  }
+
+  .table-responsive{
+    display: none;
   }
 }

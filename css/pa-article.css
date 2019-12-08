@@ -500,52 +500,49 @@ font-size: 1.5em;
   margin-top: 0;
 }
 
-.sponsor {
-  max-width:200px;
-  margin:0 auto;
+.sponsor-row{
+  width:60%;
+  margin: 0 auto;
 }
 
-.row-sponsor2 {
+.sponsor-row2{
+  width:60%;
   margin: 0 auto;
-  width: 100%;
-  background-color: white;
- }
+}
 
- .row-sponsor {
-  text-align:center;
-  margin-bottom:20px;
+.sponsor {
+  margin:0 auto;
 }
 
 #hc {
   display: block;
-  width: 30%;
+  width: 60%;
 }
 
 #cns {
   display: block;
-  width: 30%;
+  width: 60%;
 }
 
 #pbs {
   display: block;
-  width: 50%;
+  width: 60%;
 }
 
 #merrill {
   display: block;
-  width: 50%;
+  width: 80%;
 }
 
 #acf {
   display: block;
-  width: 50%;
+  width: 80%;
 }
 
 #shf {
   display: block;
-  width: 50%;
+  width: 80%;
 }
-
 
 @media(max-width:1024px){
   #topbar{
