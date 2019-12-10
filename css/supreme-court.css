@@ -635,6 +635,8 @@ font-size: 1.5em;
 
 .sponsor {
   margin:0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #hc {
@@ -665,6 +667,10 @@ font-size: 1.5em;
 #shf {
   display: block;
   width: 80%;
+}
+
+.text-mobile{
+  display: none;
 }
 
 
@@ -747,7 +753,7 @@ font-size: 1.5em;
 
     p{
       font-size: 1.1em;
-      width: 80%;
+      width: 90%;
     }
 
     .timeline-title{
@@ -773,7 +779,7 @@ font-size: 1.5em;
     }
 
     .more{
-      width: 80%;
+      width: 90%;
     }
 
   .date{
@@ -816,6 +822,15 @@ font-size: 1.5em;
   .hide{
     display: none;
   }
+
+  ul{
+    display: none;
+  }
+
+  .text-mobile{
+    display: inline-block;
+    width: 90%;
+  }
 }
 
 @media only screen and (max-width: 400px){
@@ -837,7 +852,7 @@ font-size: 1.5em;
     transform: translate(-50%, -50%);
   }
   .article-title{
-    font-size: 3em;
+    font-size: 2.5em;
   }
 
   .article-desc{

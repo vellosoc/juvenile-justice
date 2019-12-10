@@ -132,6 +132,14 @@ p{
     border-bottom: 1px solid white;
   }
 
+  .incarceration-graph-lifers{
+    width: 60%;
+    margin: 0 auto;
+    font-family: 'Muli', sans-serif;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+  }
+
   .author{
     font-size: 1.125em;
     font-family: 'Lora', serif;
@@ -512,6 +520,8 @@ font-size: 1.5em;
 
 .sponsor {
   margin:0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #hc {
@@ -569,6 +579,10 @@ font-size: 1.5em;
     width: 70%;
   }
 
+  .incarceration-graph-lifers{
+    width: 70%;
+  }
+
   .more{
     width: 70%;
   }
@@ -617,11 +631,11 @@ font-size: 1.5em;
 
   p{
     font-size: 1.1em;
-    width: 80%;
+    width: 90%;
   }
 
   .pullquote{
-    width: 80%;
+    width: 90%;
     font-size: 1.1em;
   }
 
@@ -630,19 +644,40 @@ font-size: 1.5em;
   }
 
   .incarceration-graph{
-    width: 80%;
+    width: 90%;
+  }
+
+  .scrolling-text{
+    font-size: 1em !important;
+  }
+
+
+  .pa-county-author{
+    width: 90%;
+  }
+
+  .pa-county-credits{
+    width: 90%;
+  }
+
+  .incarceration-graph-lifers{
+    display: none;
+  }
+
+  .mobile-hide{
+    display: none;
   }
 
   .about{
-    width: 70%;
+    width: 80%;
   }
 
   .final-credits{
-    width: 70%;
+    width: 80%;
   }
 
   .more{
-    width: 80%;
+    width: 90%;
   }
 
   .date{
@@ -792,7 +827,7 @@ font-size: 1.5em;
     color: white;
     font-size: .9em;
     font-family: 'Muli', sans-serif;
-    width: 80%;
+    width: 90%;
     text-align: left;
     padding-bottom: 10px;
   }
@@ -827,8 +862,9 @@ font-size: 1.5em;
     transform: translate(-50%, -50%);
   }
   .article-title{
-    font-size: 3em;
+    font-size: 2.5em;
   }
+
 
   .article-desc{
     font-size: 1em;

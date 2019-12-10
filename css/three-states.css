@@ -494,6 +494,8 @@ a{
 
   .sponsor {
     margin:0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   #hc {
@@ -599,23 +601,23 @@ a{
 
     p{
       font-size: 1.1em;
-      width: 80%;
+      width: 90%;
     }
 
     .incarceration-graph{
-      width: 80%;
+      width: 90%;
     }
 
     .about{
-      width: 70%;
+      width: 80%;
     }
 
     .final-credits{
-      width: 70%;
+      width: 80%;
     }
 
     .more{
-      width: 80%;
+      width: 90%;
     }
 
   .date{
@@ -646,6 +648,7 @@ a{
       font-size: 1.5em;
     }
 
+
 }
 
 @media only screen and (max-width: 400px){
@@ -669,9 +672,10 @@ a{
     width: 80%;
     top: 50%;
     transform: translate(-50%, -50%);
+
   }
   .article-title{
-    font-size: 3em;
+    font-size: 2.5em;
   }
 
   .article-desc{

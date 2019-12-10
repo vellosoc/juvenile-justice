@@ -314,6 +314,8 @@ img {
 
 .sponsor {
   margin:0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #hc {
@@ -458,12 +460,16 @@ img {
 
   .opening-text{
     font-size: 1em;
-    width: 80%;
+    width: 90%;
+  }
+
+  .pbs-video{
+    width: 90%;
   }
 
   .caption{
     font-size: 1.1em;
-    width: 80%;
+    width: 90%;
   }
 
   .article-title{
@@ -475,11 +481,11 @@ img {
   }
 
   .about{
-    width: 70%;
+    width: 80%;
   }
 
   .credits{
-    width: 70%;
+    width: 80%;
   }
 }
 

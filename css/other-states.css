@@ -523,6 +523,8 @@ font-family: 'Antic Didone', serif;
 
 .sponsor {
   margin:0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #hc {
@@ -618,7 +620,6 @@ font-family: 'Antic Didone', serif;
   }
   .article-title{
     font-size: 3em;
-
     }
 
   .article-desc{
@@ -629,23 +630,23 @@ font-family: 'Antic Didone', serif;
 
     p{
       font-size: 1.1em;
-      width: 80%;
+      width: 90%;
     }
 
     .incarceration-graph{
-      width: 80%;
+      width: 90%;
     }
 
     .about{
-      width: 70%;
+      width: 80%;
     }
 
     .final-credits{
-      width: 70%;
+      width: 80%;
     }
 
     .more{
-      width: 80%;
+      width: 90%;
     }
 
   .date{
@@ -699,7 +700,7 @@ font-family: 'Antic Didone', serif;
     transform: translate(-50%, -50%);
   }
   .article-title{
-    font-size: 3em;
+    font-size: 2.5em;
   }
 
   .article-desc{
