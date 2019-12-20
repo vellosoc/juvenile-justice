@@ -85,7 +85,7 @@ function onEachFeature(feature, layer) {
     $(".total_resentanced").html("<span id=\"number\"><strong>" + feature.properties.total_resentanced + "</strong></span></br> total resentenced");
     $(".released").html("<span id=\"smallnumber\"><strong>" + feature.properties.released + "</strong></span> <span class=\"highlight\">released</span> since 2016");
     $(".resentanced_nonlife").html("<span id=\"smallnumber\"><strong>" + feature.properties.resentanced_nonlife + "</strong></span>  resentenced to <span class=\"highlight\">non-life terms</span>");
-    $(".given_life").html("<span id=\"smallnumber\"><strong>" + feature.properties.given_life + "</strong></span> given <span class=\"highlight\">life without parole</span> again");
+    $(".given_life").html("<span id=\"smallnumber\"><strong>" + feature.properties.given_life + "</strong></span> still serving <span class=\"highlight\">life without parole</span> sentence");
     $(".waiting_resentance").html("<span id=\"smallnumber\"><strong>" + feature.properties.waiting_resentance + "</strong></span> still waiting for their <span class=\"highlight\">resentencing</span>");
     $(".total_minority").html("<span id=\"percentage\"><strong>" + feature.properties.total_minority + "%</strong></span> are <span class=\"highlight\">minorities</span><span class=\"asterisk\">*</span>");
     $(".total_white").html("<span id=\"percentage\"><strong>" + feature.properties.total_white + "%</strong></span> are <span class=\"highlight\">white</span>")
